@@ -1,0 +1,536 @@
+Calling http://localhost:5900
+
+**********3.1**********
+****APPLICATION/XML****
+The number of people in the database is: 5
+The id of the first person: 1
+The id of the last person: 13
+
+Request #1:
+Header: 
+GET /person/ Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Running on the track</description>
+        <idActivity>2</idActivity>
+        <name>Running</name>
+        <place>Trento</place>
+        <startdate>2017-11-11T00:00:00+01:00</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Japanese cooking class</description>
+        <idActivity>3</idActivity>
+        <name>Cooing</name>
+        <place>Rovereto</place>
+        <startdate>2017-11-11T00:00:00+01:00</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-11T00:00:00+01:00</birthdate>
+    <firstName>Marika</firstName>
+    <idPerson>1</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Attending history museum</description>
+        <idActivity>5</idActivity>
+        <name>Museum</name>
+        <place>Budpest</place>
+        <startdate>2017-11-13T17:22:42.024+01:00</startdate>
+        <type>CULTURE</type>
+      </activitypreference>
+      <activitypreference>
+        <description>EIT Digital summer school on Big Data</description>
+        <idActivity>6</idActivity>
+        <name>Summer school</name>
+        <place>Stockholm</place>
+        <startdate>2017-11-13T17:22:42.024+01:00</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-13T17:22:42.024+01:00</birthdate>
+    <firstName>Daniella</firstName>
+    <idPerson>4</idPerson>
+    <lastname>Kanyicska</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Fun outdoors pub crawl with colleauges</description>
+        <idActivity>8</idActivity>
+        <name>Treasure Hunt</name>
+        <place>Budapest</place>
+        <startdate>2017-11-13T17:22:42.175+01:00</startdate>
+        <type>WORK</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Walking with the family dog</description>
+        <idActivity>9</idActivity>
+        <name>Dog Wlaking</name>
+        <place>Tata</place>
+        <startdate>2017-11-13T17:22:42.175+01:00</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-13T17:22:42.175+01:00</birthdate>
+    <firstName>Zsofia</firstName>
+    <idPerson>7</idPerson>
+    <lastname>Lele</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Going to shopping centre</description>
+        <idActivity>11</idActivity>
+        <name>Shopping</name>
+        <place>Vienna</place>
+        <startdate>2017-11-13T17:22:42.276+01:00</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Proving results of studying in a semester</description>
+        <idActivity>12</idActivity>
+        <name>Exam</name>
+        <place>Budapest</place>
+        <startdate>2017-11-13T17:22:42.276+01:00</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-13T17:22:42.276+01:00</birthdate>
+    <firstName>Kata</firstName>
+    <idPerson>10</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Relaxing and streching</description>
+        <idActivity>14</idActivity>
+        <name>Yoga</name>
+        <place>Budapest</place>
+        <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Going up to mountain peaks</description>
+        <idActivity>15</idActivity>
+        <name>Hiking</name>
+        <place>Trento</place>
+        <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-13T17:22:42.415+01:00</birthdate>
+    <firstName>Mate</firstName>
+    <idPerson>13</idPerson>
+    <lastname>Mirko</lastname>
+  </person>
+</people>
+
+
+
+**********3.2**********
+****APPLICATION/XML****
+
+Request #2:
+Header: 
+GET /person/1 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <preferences>
+    <activitypreference>
+      <description>Running on the track</description>
+      <idActivity>2</idActivity>
+      <name>Running</name>
+      <place>Trento</place>
+      <startdate>2017-11-11T00:00:00+01:00</startdate>
+      <type>SPORT</type>
+    </activitypreference>
+    <activitypreference>
+      <description>Japanese cooking class</description>
+      <idActivity>3</idActivity>
+      <name>Cooing</name>
+      <place>Rovereto</place>
+      <startdate>2017-11-11T00:00:00+01:00</startdate>
+      <type>SOCIAL</type>
+    </activitypreference>
+  </preferences>
+  <birthdate>2017-11-11T00:00:00+01:00</birthdate>
+  <firstName>Marika</firstName>
+  <idPerson>1</idPerson>
+  <lastname>Hermann</lastname>
+</person>
+
+
+
+**********3.3**********
+****APPLICATION/XML****
+
+Request #3:
+Header: 
+PUT /person/1Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: ERROR
+=> HTTP Status: 201 Created
+Updated person: <?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <preferences>
+    <activitypreference>
+      <description>Running on the track</description>
+      <idActivity>2</idActivity>
+      <name>Running</name>
+      <place>Trento</place>
+      <startdate>2017-11-11T00:00:00+01:00</startdate>
+      <type>SPORT</type>
+    </activitypreference>
+    <activitypreference>
+      <description>Japanese cooking class</description>
+      <idActivity>3</idActivity>
+      <name>Cooing</name>
+      <place>Rovereto</place>
+      <startdate>2017-11-11T00:00:00+01:00</startdate>
+      <type>SOCIAL</type>
+    </activitypreference>
+  </preferences>
+  <birthdate>2017-11-11T00:00:00+01:00</birthdate>
+  <firstName>Marika</firstName>
+  <idPerson>1</idPerson>
+  <lastname>Hermann</lastname>
+</person>
+
+
+**********3.4**********
+****APPLICATION/XML****
+
+Request #4:
+Header: 
+POST /person/ Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <preferences>
+    <activitypreference>
+      <description>Going to a restaurant or a bar with friends.</description>
+      <idActivity>25</idActivity>
+      <name>Going out</name>
+      <place>London</place>
+      <startdate>2017-11-11T00:00:00+01:00</startdate>
+      <type>SOCIAL</type>
+    </activitypreference>
+  </preferences>
+  <birthdate>2017-11-11T00:00:00+01:00</birthdate>
+  <firstName>Sherlock</firstName>
+  <idPerson>24</idPerson>
+  <lastname>Holmes</lastname>
+</person>
+
+24
+
+**********3.5**********
+****APPLICATION/XML****
+
+Request #5:
+Header: 
+DELETE /person/24 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 204 No Content
+
+**********3.6**********
+****APPLICATION/XML****
+
+Request #6:
+Header: 
+GET /activity_type/ Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activityTypes>
+  <activity_type>SPORT</activity_type>
+  <activity_type>SOCIAL</activity_type>
+  <activity_type>ACADEMIC</activity_type>
+  <activity_type>WORK</activity_type>
+  <activity_type>CULTURE</activity_type>
+</activityTypes>
+
+
+
+**********3.7**********
+****APPLICATION/XML****
+
+Request #7:
+Header: 
+GET /person/1/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Running on the track</description>
+    <idActivity>2</idActivity>
+    <name>Running</name>
+    <place>Trento</place>
+    <startdate>2017-11-11T00:00:00+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7:
+Header: 
+GET /person/1/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Running on the track</description>
+    <idActivity>2</idActivity>
+    <name>Running</name>
+    <place>Trento</place>
+    <startdate>2017-11-11T00:00:00+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7:
+Header: 
+GET /person/1/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Running on the track</description>
+    <idActivity>2</idActivity>
+    <name>Running</name>
+    <place>Trento</place>
+    <startdate>2017-11-11T00:00:00+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7:
+Header: 
+GET /person/1/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Running on the track</description>
+    <idActivity>2</idActivity>
+    <name>Running</name>
+    <place>Trento</place>
+    <startdate>2017-11-11T00:00:00+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7:
+Header: 
+GET /person/1/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Running on the track</description>
+    <idActivity>2</idActivity>
+    <name>Running</name>
+    <place>Trento</place>
+    <startdate>2017-11-11T00:00:00+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7b:
+Header: 
+GET /person/13/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Relaxing and streching</description>
+    <idActivity>14</idActivity>
+    <name>Yoga</name>
+    <place>Budapest</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+  <activity>
+    <description>Going up to mountain peaks</description>
+    <idActivity>15</idActivity>
+    <name>Hiking</name>
+    <place>Trento</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7b:
+Header: 
+GET /person/13/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Relaxing and streching</description>
+    <idActivity>14</idActivity>
+    <name>Yoga</name>
+    <place>Budapest</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+  <activity>
+    <description>Going up to mountain peaks</description>
+    <idActivity>15</idActivity>
+    <name>Hiking</name>
+    <place>Trento</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7b:
+Header: 
+GET /person/13/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Relaxing and streching</description>
+    <idActivity>14</idActivity>
+    <name>Yoga</name>
+    <place>Budapest</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+  <activity>
+    <description>Going up to mountain peaks</description>
+    <idActivity>15</idActivity>
+    <name>Hiking</name>
+    <place>Trento</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7b:
+Header: 
+GET /person/13/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Relaxing and streching</description>
+    <idActivity>14</idActivity>
+    <name>Yoga</name>
+    <place>Budapest</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+  <activity>
+    <description>Going up to mountain peaks</description>
+    <idActivity>15</idActivity>
+    <name>Hiking</name>
+    <place>Trento</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7b:
+Header: 
+GET /person/13/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Relaxing and streching</description>
+    <idActivity>14</idActivity>
+    <name>Yoga</name>
+    <place>Budapest</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+  <activity>
+    <description>Going up to mountain peaks</description>
+    <idActivity>15</idActivity>
+    <name>Hiking</name>
+    <place>Trento</place>
+    <startdate>2017-11-13T17:22:42.415+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+Request#7 result is OK
+Saved activity id: 2
+Saved type: SPORT
+
+**********3.8**********
+****APPLICATION/XML****
+
+Request #8:
+Header: 
+GET /person/1/SPORT/2 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Running on the track</description>
+    <idActivity>2</idActivity>
+    <name>Running</name>
+    <place>Trento</place>
+    <startdate>2017-11-11T00:00:00+01:00</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
