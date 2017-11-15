@@ -168,10 +168,10 @@ public class ClientImplementationXML {
         
         System.out.println("\nRequest #3:" + "\n"
         		+ "Header: " + "\n"
-        		+ "PUT /person/" + first_person_id + "Accept: APPLICATION/XML Content-Type: APPLICATION/XML" + "\n"
+        		+ "PUT /person/" + first_person_id + " Accept: APPLICATION/XML Content-Type: APPLICATION/XML" + "\n"
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp3.getStatus() + " " + resp3.getStatusInfo() + "\n"
-        		+ "Updated person: " + format(response3b));	//String? Format?
+        		+ "Updated person: " + format(response3b));	
         		
         // Step 3.4.
 		Object entity4 = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n" + 

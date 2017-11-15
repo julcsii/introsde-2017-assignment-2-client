@@ -104,7 +104,7 @@
 		</target>
 
 		<target name="execute.evaluation" depends="compile">
-			<echo message="Executing HTTP request...saving response to client-server-xml.log" />
+			<echo message="Executing HTTP requests...saving response to client-server-xml.log" />
 			<record name="client-server-xml.log" emacsmode="true"	action="start"/>
 			<java classname="ClientImplementationXML" classpath="${build.dir}">
 				<classpath>
@@ -115,6 +115,17 @@
 				</classpath>
 			</java>
 			<record name="client-server-xml.log" action="stop"/>
+			<echo message="Executing HTTP requests...saving response to client-server-json.log" />
+						<record name="client-server-json.log" emacsmode="true"	action="start"/>
+						<java classname="ClientImplementationJSON" classpath="${build.dir}">
+							<classpath>
+								<fileset dir="${lib.dir}">
+									<include name="**/*.jar" />
+									<include name="*.jar" />
+								</fileset>
+							</classpath>
+						</java>
+						<record name="client-server-json.log" action="stop"/>
 		</target>	
 
 </project>
