@@ -49,6 +49,27 @@ public class ClientImplementationJSON {
         int first_person_id;
         int last_person_id;
 		
+        //Step 3.0
+        //Send request to fill up database
+        System.out.println("\n**********3.0**********");
+        System.out.println("****APPLICATION/JSON****");
+        Response resp0 = service.path("database_init").request().accept(MediaType.APPLICATION_JSON).header("Content-type","application/json").get();
+        String response0 = resp0.readEntity(String.class);
+        JSONArray array_response0 = new JSONArray(response0);
+        int count0 = array_response0.length();
+        if(count0>4) {
+        	result = "OK";
+        }else {
+        	result = "ERROR";
+        }
+        System.out.println("\nRequest #0:" + "\n"
+        		+ "Header: " + "\n"
+        		+ "GET /database_init/ Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
+        		+ "=> Result: " + result +  "\n"
+        		+ "=> HTTP Status: " + resp0.getStatus() + " " + resp0.getStatusInfo() + "\n"
+        		+ "Body: "  + "\n"
+        		+ response0 + "\n");	
+
         
         // Step 3.1.
         System.out.println("\n**********3.1**********");
@@ -149,7 +170,7 @@ public class ClientImplementationJSON {
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp4.getStatus() + " " + resp4.getStatusInfo() + "\n"
         		+ "Body: " +response4);	
-        System.out.println(newPersonId);
+        System.out.println("The id of the newly created person: "+newPersonId);
        
       
         //3.5.
@@ -194,7 +215,7 @@ public class ClientImplementationJSON {
         		+ "=> HTTP Status: " + resp6.getStatus() + " " + resp6.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"
         		+ response6 + "\n");
-      
+        System.out.println("List of activity types in the system:" + activityTypesList);
         // Step 3.7.
         System.out.println("\n**********3.7**********");
         System.out.println("****APPLICATION/JSON****");
@@ -218,7 +239,7 @@ public class ClientImplementationJSON {
             
             System.out.println("\nRequest #7:" + "\n"
             		+ "Header: " + "\n"
-            		+ "GET /person/" + first_person_id + "/" +  activityTypesList.get(i) + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
+            		+ "GET /person/" + first_person_id + "/" +  activityTypesList.get(i).toUpperCase() + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
             		+ "=> Result: " + result +  "\n"
             		+ "=> HTTP Status: " + resp7.getStatus() + " " + resp7.getStatusInfo() + "\n"
             		+ "Body: "  + "\n"
@@ -262,7 +283,7 @@ public class ClientImplementationJSON {
         }
         System.out.println("\nRequest #8:" + "\n"
         		+ "Header: " + "\n"
-        		+ "GET /person/" + first_person_id + "/" + type + "/" + idActivity + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
+        		+ "GET /person/" + first_person_id + "/" + type.toUpperCase() + "/" + idActivity + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp8.getStatus() + " " + resp8.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"
@@ -356,7 +377,7 @@ public class ClientImplementationJSON {
       
         System.out.println("\nRequest #11:" + "\n"
         		+ "Header: " + "\n"
-        		+ "GET /person/" + first_person_id + "/" +  type + "?before=2017-12-28T08:50:00&after=2017-11-11T00:00:00" + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
+        		+ "GET /person/" + first_person_id + "/" +  type.toUpperCase() + "?before=2017-12-28T08:50:00&after=2017-10-11T00:00:00" + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
         		+ "=> Result: " + result +  "\n" 
         		+ "=> HTTP Status: " + resp11.getStatus() + " " + resp11.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"
@@ -364,6 +385,6 @@ public class ClientImplementationJSON {
 	}
     private static URI getBaseURI() {
         return UriBuilder.fromUri(
-                "http://localhost:5900").build();
+                "https://sde-assignment-2.herokuapp.com/").build();
     }
 }

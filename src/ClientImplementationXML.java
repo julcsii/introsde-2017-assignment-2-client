@@ -73,6 +73,28 @@ public class ClientImplementationXML {
         int first_person_id;
         int last_person_id;
 		
+        //Step 3.0
+        //Send request to fill up database
+        System.out.println("\n**********3.0*********");
+        System.out.println("****APPLICATION/XML****");
+        Response resp0 = service.path("database_init").request().accept(MediaType.APPLICATION_XML).header("Content-type","application/xml").get();
+        String response0 = resp0.readEntity(String.class);
+        Document doc0 = loadXMLFromString(response0);
+        NodeList peopleIds0 = doc0.getElementsByTagName("idPerson");
+        int count0 = peopleIds0.getLength();
+        if(count0>4) {
+        	result = "OK";
+        }else {
+        	result = "ERROR";
+        }
+        System.out.println("\nRequest #0:" + "\n"
+        		+ "Header: " + "\n"
+        		+ "GET /databsae_init/ Accept: APPLICATION/XML Content-Type: APPLICATION/XML" + "\n"
+        		+ "=> Result: " + result +  "\n"
+        		+ "=> HTTP Status: " + resp0.getStatus() + " " + resp0.getStatusInfo() + "\n"
+        		+ "Body: "  + "\n"
+        		+ format(response0) + "\n");	
+        
         
         // Step 3.1.
         System.out.println("\n**********3.1**********");
@@ -210,7 +232,7 @@ public class ClientImplementationXML {
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp4.getStatus() + " " + resp4.getStatusInfo() + "\n"
         		+ "Body: " +format(response4));	
-        System.out.println(newPersonId);
+        System.out.println("The id of the newly created person: "+newPersonId);
        
         
         //3.5.
@@ -240,7 +262,7 @@ public class ClientImplementationXML {
         int activityTypeCount = activityTypes.getLength();
         List<String> activityTypesList = new ArrayList<String>();
         for (int i=0;i<activityTypeCount;i++) {
-        	activityTypesList.add(activityTypes.item(0).getTextContent());
+        	activityTypesList.add(activityTypes.item(i).getTextContent());
         }
         if(activityTypeCount>2) {
         	result = "OK";
@@ -254,7 +276,7 @@ public class ClientImplementationXML {
         		+ "=> HTTP Status: " + resp6.getStatus() + " " + resp6.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"
         		+ format(response6) + "\n");
-        
+        System.out.println("List of activity types in the system:" + activityTypesList);
         // Step 3.7.
         System.out.println("\n**********3.7**********");
         System.out.println("****APPLICATION/XML****");
@@ -411,13 +433,14 @@ public class ClientImplementationXML {
         		+ "Body: " + "\n" +format(response10));	        
 
 
-        //http://localhost:5900/person/1/SPORT?before=2017-12-28T08:50:00&after=2017-11-11T00:00:00
+        //{base_url}/person/1/SPORT?before=2017-12-28T08:50:00&after=2017-11-11T00:00:00
         // Step 3.11. EXTRA
         System.out.println("\n**********3.11**********");
         System.out.println("****APPLICATION/XML****");
-    	Response resp11 = service.path("person").path(String.valueOf(first_person_id)).path(type).queryParam("before", "2017-12-28T08:50:00").queryParam("after", "2017-12-28T08:50:00").request().accept(MediaType.APPLICATION_XML).header("Content-type","application/xml").get();
+    	Response resp11 = service.path("person").path(String.valueOf(first_person_id)).path(type).queryParam("before", "2017-12-28T08:50:00").queryParam("after", "2017-10-11T00:00:00").request().accept(MediaType.APPLICATION_XML).header("Content-type","application/xml").get();
     	String response11 = resp11.readEntity(String.class);
-        Document doc11 = loadXMLFromString(response11);
+    	System.out.println(response11);
+    	Document doc11 = loadXMLFromString(response11);
         NodeList activitiesWithinRange = doc11.getElementsByTagName("activity");
         int activityWithinRangeCount = activitiesWithinRange.getLength();
         if(activityWithinRangeCount>0) {
@@ -425,6 +448,7 @@ public class ClientImplementationXML {
         }else {
         	result = "ERROR";
         }
+    
         System.out.println("\nRequest #11:" + "\n"
         		+ "Header: " + "\n"
         		+ "GET /person/" + first_person_id + "/" +  type + "?before=2017-12-28T08:50:00&after=2017-11-11T00:00:00" + " Accept: APPLICATION/XML Content-Type: APPLICATION/XML" + "\n"
@@ -436,6 +460,6 @@ public class ClientImplementationXML {
 	}
     private static URI getBaseURI() {
         return UriBuilder.fromUri(
-                "http://localhost:5900").build();
+                "https://sde-assignment-2.herokuapp.com/").build();
     }
 }

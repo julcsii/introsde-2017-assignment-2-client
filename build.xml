@@ -116,16 +116,16 @@
 			</java>
 			<record name="client-server-xml.log" action="stop"/>
 			<echo message="Executing HTTP requests...saving response to client-server-json.log" />
-						<record name="client-server-json.log" emacsmode="true"	action="start"/>
-						<java classname="ClientImplementationJSON" classpath="${build.dir}">
-							<classpath>
-								<fileset dir="${lib.dir}">
-									<include name="**/*.jar" />
-									<include name="*.jar" />
-								</fileset>
-							</classpath>
-						</java>
-						<record name="client-server-json.log" action="stop"/>
+			<record name="client-server-json.log" emacsmode="true"	action="start"/>
+			<java classname="ClientImplementationJSON" classpath="${build.dir}">
+				<classpath>
+					<fileset dir="${lib.dir}">
+						<include name="**/*.jar" />
+						<include name="*.jar" />
+					</fileset>
+				</classpath>
+			</java>
+			<record name="client-server-json.log" action="stop"/>
 		</target>	
 
 </project>
