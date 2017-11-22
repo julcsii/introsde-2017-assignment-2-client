@@ -133,6 +133,9 @@ public class ClientImplementationXML {
         Document doc2 = loadXMLFromString(response2);
         NodeList origFirstNames = doc2.getElementsByTagName("firstName");
         String origFirstNameOfFirst = origFirstNames.item(0).getTextContent();
+
+        int idActivity1 = Integer.parseInt(doc2.getElementsByTagName("activitypreference").item(0).getTextContent());
+		int idActivity2 = Integer.parseInt(doc2.getElementsByTagName("activitypreference").item(1).getTextContent());
         if (resp2.getStatus()==200 || resp2.getStatus()==202) {
         	result = "OK";
         } else {
@@ -145,13 +148,14 @@ public class ClientImplementationXML {
         		+ "=> HTTP Status: " + resp2.getStatus() + " " + resp2.getStatusInfo() + "\n"
         		+ "Body: " + format(response2) + "\n");	
 
-        // Step 3.3.
+       
+		// Step 3.3.
 		Object entity3 = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n" + 
 				"<person>\n" + 
 				"    <preferences>\n" + 
 				"        <activitypreference>\n" + 
 				"            <description>Japanese cooking class</description>\n" + 
-				"            <idActivity>3</idActivity>\n" + 
+				"            <idActivity>"+ idActivity1 + "</idActivity>\n" + 
 				"            <name>Cooing</name>\n" + 
 				"            <place>Rovereto</place>\n" + 
 				"            <startdate>2017-11-11T00:00:00+01:00</startdate>\n" + 
@@ -159,7 +163,7 @@ public class ClientImplementationXML {
 				"        </activitypreference>\n" + 
 				"        <activitypreference>\n" + 
 				"            <description>Running on the track</description>\n" + 
-				"            <idActivity>2</idActivity>\n" + 
+				"            <idActivity>"+ idActivity2 + "</idActivity>\n" + 
 				"            <name>Running</name>\n" + 
 				"            <place>Trento</place>\n" + 
 				"            <startdate>2017-11-11T00:00:00+01:00</startdate>\n" + 
@@ -168,7 +172,7 @@ public class ClientImplementationXML {
 				"    </preferences>\n" + 
 				"    <birthdate>2017-11-11T00:00:00+01:00</birthdate>\n" + 
 				"    <firstName>Marika</firstName>\n" + 
-				"    <idPerson>1</idPerson>\n" + 
+				"    <idPerson>"+ first_person_id + "</idPerson>\n" + 
 				"    <lastname>Hermann</lastname>\n" + 
 				"</person>";
 		
@@ -437,9 +441,8 @@ public class ClientImplementationXML {
         // Step 3.11. EXTRA
         System.out.println("\n**********3.11**********");
         System.out.println("****APPLICATION/XML****");
-    	Response resp11 = service.path("person").path(String.valueOf(first_person_id)).path(type).queryParam("before", "2017-12-28T08:50:00").queryParam("after", "2017-10-11T00:00:00").request().accept(MediaType.APPLICATION_XML).header("Content-type","application/xml").get();
+    	Response resp11 = service.path("person").path(String.valueOf(first_person_id)).path(type).queryParam("before", "2018-12-28T08:50:00").queryParam("after", "2017-10-11T00:00:00").request().accept(MediaType.APPLICATION_XML).header("Content-type","application/xml").get();
     	String response11 = resp11.readEntity(String.class);
-    	System.out.println(response11);
     	Document doc11 = loadXMLFromString(response11);
         NodeList activitiesWithinRange = doc11.getElementsByTagName("activity");
         int activityWithinRangeCount = activitiesWithinRange.getLength();
@@ -451,7 +454,7 @@ public class ClientImplementationXML {
     
         System.out.println("\nRequest #11:" + "\n"
         		+ "Header: " + "\n"
-        		+ "GET /person/" + first_person_id + "/" +  type + "?before=2017-12-28T08:50:00&after=2017-11-11T00:00:00" + " Accept: APPLICATION/XML Content-Type: APPLICATION/XML" + "\n"
+        		+ "GET /person/" + first_person_id + "/" +  type + "?before=2018-12-28T08:50:00&after=2017-10-11T00:00:00" + " Accept: APPLICATION/XML Content-Type: APPLICATION/XML" + "\n"
         		+ "=> Result: " + result +  "\n" 
         		+ "=> HTTP Status: " + resp11.getStatus() + " " + resp11.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"

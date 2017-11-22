@@ -3,6 +3,8 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.net.URI;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,6 +25,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.org.apache.xml.internal.serialize.OutputFormat;
 import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
 
@@ -40,6 +45,14 @@ public class ClientImplementationJSON {
         System.out.println("Calling " + getBaseURI() ); //Step 1.
         return service;
     }
+	
+	 public static String format(String jsonString) throws IOException {
+		 ObjectMapper mapper = new ObjectMapper();
+		 Object json = mapper.readValue(jsonString, Object.class);
+		 String prettyJson = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(json);
+
+	      return prettyJson;
+	  }
 	
 	
 	public static void main(String[] args) throws Exception {
@@ -68,7 +81,7 @@ public class ClientImplementationJSON {
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp0.getStatus() + " " + resp0.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"
-        		+ response0 + "\n");	
+        		+ format(response0) + "\n");	
 
         
         // Step 3.1.
@@ -96,7 +109,7 @@ public class ClientImplementationJSON {
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp.getStatus() + " " + resp.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"
-        		+ response + "\n");	
+        		+ format(response) + "\n");	
         
        
    
@@ -108,7 +121,8 @@ public class ClientImplementationJSON {
         
         JSONObject obj2 = new JSONObject(response2);
         String origFirstNameOfFirst = (String) obj2.get("firstName");
-        
+        int idActivity1 = (Integer) obj2.getJSONArray("activitypreference").getJSONObject(0).get("idActivity");
+        int idActivity2 = (Integer) obj2.getJSONArray("activitypreference").getJSONObject(1).get("idActivity");
         if (resp2.getStatus()==200 || resp2.getStatus()==202) {
         	result = "OK";
         } else {
@@ -119,10 +133,10 @@ public class ClientImplementationJSON {
         		+ "GET /person/" + first_person_id + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp2.getStatus() + " " + resp2.getStatusInfo() + "\n"
-        		+ "Body: " + response2 + "\n");	
+        		+ "Body: " + format(response2) + "\n");	
        
         // Step 3.3.
-		Object entity3 = "{\"idPerson\":1,\"lastname\":\"Hermann\",\"birthdate\":1510780525483,\"activitypreference\":[{\"idActivity\":2,\"name\":\"Running\",\"description\":\"Running on the track\",\"place\":\"Trento\",\"type\":\"Sport\",\"startdate\":1510780525483},{\"idActivity\":3,\"name\":\"Cooking\",\"description\":\"Japanese cooking class\",\"place\":\"Rovereto\",\"type\":\"Social\",\"startdate\":1510780525483}],\"firstName\":\"Marika\"}";
+		Object entity3 = "{\"idPerson\":"+first_person_id+",\"lastname\":\"Hermann\",\"birthdate\":1510780525483,\"activitypreference\":[{\"idActivity\":"+idActivity1+",\"name\":\"Running\",\"description\":\"Running on the track\",\"place\":\"Trento\",\"type\":\"Sport\",\"startdate\":1510780525483},{\"idActivity\":"+idActivity2+",\"name\":\"Cooking\",\"description\":\"Japanese cooking class\",\"place\":\"Rovereto\",\"type\":\"Social\",\"startdate\":1510780525483}],\"firstName\":\"Marika\"}";
 		
 		System.out.println("\n**********3.3**********");
         System.out.println("****APPLICATION/JSON****");
@@ -145,7 +159,7 @@ public class ClientImplementationJSON {
         		+ "PUT /person/" + first_person_id + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp3.getStatus() + " " + resp3.getStatusInfo() + "\n"
-        		+ "Updated person: " + response3b);
+        		+ "Updated person: " + format(response3b));
        	
         // Step 3.4.
         Object entity4 = "{\"lastname\":\"Holmes\",\"birthdate\":1510780525483,\"activitypreference\":[{\"name\":\"Going out\",\"description\":\"Going to a restaurant or a bar with friends.\",\"place\":\"London\",\"type\":\"Social\",\"startdate\":1510780525483}],\"firstName\":\"Sherlock\"}";
@@ -169,7 +183,7 @@ public class ClientImplementationJSON {
         		+ "POST /person/ Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp4.getStatus() + " " + resp4.getStatusInfo() + "\n"
-        		+ "Body: " +response4);	
+        		+ "Body: " + format(response4));	
         System.out.println("The id of the newly created person: "+newPersonId);
        
       
@@ -214,7 +228,7 @@ public class ClientImplementationJSON {
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp6.getStatus() + " " + resp6.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"
-        		+ response6 + "\n");
+        		+ format(response6) + "\n");
         System.out.println("List of activity types in the system:" + activityTypesList);
         // Step 3.7.
         System.out.println("\n**********3.7**********");
@@ -243,7 +257,7 @@ public class ClientImplementationJSON {
             		+ "=> Result: " + result +  "\n"
             		+ "=> HTTP Status: " + resp7.getStatus() + " " + resp7.getStatusInfo() + "\n"
             		+ "Body: "  + "\n"
-            		+ response7 + "\n");
+            		+ format(response7) + "\n");
         }
         for (int i=0;i<activityTypesList.size();i++) {
         	Response resp7b = service.path("person").path(String.valueOf(last_person_id)).path(activityTypesList.get(i).toUpperCase()).request().accept(MediaType.APPLICATION_JSON).header("Content-type","application/json").get();
@@ -262,7 +276,7 @@ public class ClientImplementationJSON {
             		+ "=> Result: " + result +  "\n"
             		+ "=> HTTP Status: " + resp7b.getStatus() + " " + resp7b.getStatusInfo() + "\n"
             		+ "Body: "  + "\n"
-            		+ response7b + "\n");
+            		+ format(response7b) + "\n");
         }
         if (okCount>0) {
         	System.out.println("Request#7 result is OK");
@@ -287,14 +301,13 @@ public class ClientImplementationJSON {
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp8.getStatus() + " " + resp8.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"
-        		+ response8 + "\n");
+        		+ format(response8) + "\n");
         
         int activityCountWithType = 0;
         int activityCountWithTypeChanged = 0;
        
         // Step 3.9.
         Object entity9 = "{\"name\":\"Swimming\",\"description\":\"Swimming in the river\",\"place\":\"Adige river\",\"type\":\"Sport\",\"startdate\":1514447400000}";
-		System.out.println(Entity.json(entity9));
         Response resp9a = service.path("person").path(String.valueOf(first_person_id)).path("SPORT").request().accept(MediaType.APPLICATION_JSON).header("Content-type","application/json").get();
     	String response9a = resp9a.readEntity(String.class);
     	JSONArray array9a = new JSONArray(response9a);
@@ -324,7 +337,7 @@ public class ClientImplementationJSON {
         		+ "POST /person/" + first_person_id + "/SPORT" +" Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp9.getStatus() + " " + resp9.getStatusInfo() + "\n"
-        		+ "Body: " + "\n" +response9);	
+        		+ "Body: " + "\n" + format(response9));	
         
         // Step 3.10. EXTRA
         Object entity10 = "{\"idActivity\":"+idActivityNew+", \"name\":\"Swimming\",\"description\":\"Swimming in the river\",\"place\":\"Adige\",\"type\":\"Sport\",\"startdate\":1514447400000}";		
@@ -355,17 +368,16 @@ public class ClientImplementationJSON {
         		+ "PUT /person/" + first_person_id + "/SPORT" + "/" + idActivityNew +" Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
         		+ "=> Result: " + result +  "\n"
         		+ "=> HTTP Status: " + resp10.getStatus() + " " + resp10.getStatusInfo() + "\n"
-        		+ "Body: " + "\n" + response10);	        
+        		+ "Body: " + "\n" + format(response10));	        
 
 
-        //http://localhost:5900/person/1/SPORT?before=2017-12-28T08:50:00&after=2017-11-11T00:00:00
+        //{base_url}/person/1/SPORT?before=2017-12-28T08:50:00&after=2017-11-11T00:00:00
        
         // Step 3.11. EXTRA
         System.out.println("\n**********3.11**********");
         System.out.println("****APPLICATION/JSON****");
-    	Response resp11 = service.path("person").path(String.valueOf(first_person_id)).path(type.toUpperCase()).queryParam("before", "2017-12-28T08:50:00").queryParam("after", "2017-11-11T00:00:00").request().accept(MediaType.APPLICATION_JSON).header("Content-type","application/json").get();
+    	Response resp11 = service.path("person").path(String.valueOf(first_person_id)).path(type.toUpperCase()).queryParam("before", "2018-12-28T08:50:00").queryParam("after", "2017-10-11T00:00:00").request().accept(MediaType.APPLICATION_JSON).header("Content-type","application/json").get();
     	String response11 = resp11.readEntity(String.class);
-    	System.out.println("Response"+response11);
     	JSONArray array11 = new JSONArray(response11);
         int activityWithinRangeCount = array11.length();
         
@@ -377,11 +389,11 @@ public class ClientImplementationJSON {
       
         System.out.println("\nRequest #11:" + "\n"
         		+ "Header: " + "\n"
-        		+ "GET /person/" + first_person_id + "/" +  type.toUpperCase() + "?before=2017-12-28T08:50:00&after=2017-10-11T00:00:00" + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
+        		+ "GET /person/" + first_person_id + "/" +  type.toUpperCase() + "?before=2018-12-28T08:50:00&after=2017-10-11T00:00:00" + " Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON" + "\n"
         		+ "=> Result: " + result +  "\n" 
         		+ "=> HTTP Status: " + resp11.getStatus() + " " + resp11.getStatusInfo() + "\n"
         		+ "Body: "  + "\n"
-        		+ response11 + "\n");
+        		+ format(response11) + "\n");
 	}
     private static URI getBaseURI() {
         return UriBuilder.fromUri(
