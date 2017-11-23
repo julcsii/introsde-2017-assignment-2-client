@@ -134,8 +134,8 @@ public class ClientImplementationXML {
         NodeList origFirstNames = doc2.getElementsByTagName("firstName");
         String origFirstNameOfFirst = origFirstNames.item(0).getTextContent();
 
-        int idActivity1 = Integer.parseInt(doc2.getElementsByTagName("activitypreference").item(0).getTextContent());
-		int idActivity2 = Integer.parseInt(doc2.getElementsByTagName("activitypreference").item(1).getTextContent());
+        int idActivity1 = Integer.parseInt(doc2.getElementsByTagName("activitypreference").item(0).getChildNodes().item(1).getTextContent());
+		int idActivity2 = Integer.parseInt(doc2.getElementsByTagName("activitypreference").item(1).getChildNodes().item(1).getTextContent());
         if (resp2.getStatus()==200 || resp2.getStatus()==202) {
         	result = "OK";
         } else {

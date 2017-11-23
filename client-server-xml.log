@@ -15,120 +15,120 @@ Body:
     <preferences>
       <activitypreference>
         <description>Running on the track</description>
-        <idActivity>20</idActivity>
+        <idActivity>134</idActivity>
         <name>Running</name>
         <place>Trento</place>
-        <startdate>2017-11-22T19:47:00.478Z</startdate>
+        <startdate>2017-11-23T20:29:43.406Z</startdate>
         <type>SPORT</type>
       </activitypreference>
       <activitypreference>
         <description>Japanese cooking class</description>
-        <idActivity>21</idActivity>
+        <idActivity>135</idActivity>
         <name>Cooking</name>
         <place>Rovereto</place>
-        <startdate>2017-11-22T19:47:00.478Z</startdate>
+        <startdate>2017-11-23T20:29:43.407Z</startdate>
         <type>SOCIAL</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.478Z</birthdate>
+    <birthdate>2017-11-23T20:29:43.407Z</birthdate>
     <firstName>Julia</firstName>
-    <idPerson>19</idPerson>
+    <idPerson>133</idPerson>
     <lastname>Hermann</lastname>
   </person>
   <person>
     <preferences>
       <activitypreference>
         <description>Attending history museum</description>
-        <idActivity>23</idActivity>
+        <idActivity>137</idActivity>
         <name>Museum</name>
         <place>Budpest</place>
-        <startdate>2017-11-22T19:47:00.485Z</startdate>
+        <startdate>2017-11-23T20:29:43.425Z</startdate>
         <type>CULTURE</type>
       </activitypreference>
       <activitypreference>
         <description>EIT Digital summer school on Big Data</description>
-        <idActivity>24</idActivity>
+        <idActivity>138</idActivity>
         <name>Summer school</name>
         <place>Stockholm</place>
-        <startdate>2017-11-22T19:47:00.485Z</startdate>
+        <startdate>2017-11-23T20:29:43.425Z</startdate>
         <type>ACADEMIC</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.485Z</birthdate>
+    <birthdate>2017-11-23T20:29:43.425Z</birthdate>
     <firstName>Daniella</firstName>
-    <idPerson>22</idPerson>
+    <idPerson>136</idPerson>
     <lastname>Kanyicska</lastname>
   </person>
   <person>
     <preferences>
       <activitypreference>
         <description>Fun outdoors pub crawl with colleauges</description>
-        <idActivity>26</idActivity>
+        <idActivity>140</idActivity>
         <name>Treasure Hunt</name>
         <place>Budapest</place>
-        <startdate>2017-11-22T19:47:00.493Z</startdate>
+        <startdate>2017-11-23T20:29:43.460Z</startdate>
         <type>WORK</type>
       </activitypreference>
       <activitypreference>
         <description>Walking with the family dog</description>
-        <idActivity>27</idActivity>
+        <idActivity>141</idActivity>
         <name>Dog Wlaking</name>
         <place>Tata</place>
-        <startdate>2017-11-22T19:47:00.493Z</startdate>
+        <startdate>2017-11-23T20:29:43.460Z</startdate>
         <type>SOCIAL</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.493Z</birthdate>
+    <birthdate>2017-11-23T20:29:43.460Z</birthdate>
     <firstName>Zsofia</firstName>
-    <idPerson>25</idPerson>
+    <idPerson>139</idPerson>
     <lastname>Lele</lastname>
   </person>
   <person>
     <preferences>
       <activitypreference>
         <description>Going to shopping centre</description>
-        <idActivity>29</idActivity>
+        <idActivity>143</idActivity>
         <name>Shopping</name>
         <place>Vienna</place>
-        <startdate>2017-11-22T19:47:00.502Z</startdate>
+        <startdate>2017-11-23T20:29:43.482Z</startdate>
         <type>SOCIAL</type>
       </activitypreference>
       <activitypreference>
         <description>Proving results of studying in a semester</description>
-        <idActivity>30</idActivity>
+        <idActivity>144</idActivity>
         <name>Exam</name>
         <place>Budapest</place>
-        <startdate>2017-11-22T19:47:00.502Z</startdate>
+        <startdate>2017-11-23T20:29:43.482Z</startdate>
         <type>ACADEMIC</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.502Z</birthdate>
+    <birthdate>2017-11-23T20:29:43.482Z</birthdate>
     <firstName>Kata</firstName>
-    <idPerson>28</idPerson>
+    <idPerson>142</idPerson>
     <lastname>Hermann</lastname>
   </person>
   <person>
     <preferences>
       <activitypreference>
         <description>Relaxing and streching</description>
-        <idActivity>32</idActivity>
+        <idActivity>146</idActivity>
         <name>Yoga</name>
         <place>Budapest</place>
-        <startdate>2017-11-22T19:47:00.511Z</startdate>
+        <startdate>2017-11-23T20:29:43.493Z</startdate>
         <type>SPORT</type>
       </activitypreference>
       <activitypreference>
         <description>Going up to mountain peaks</description>
-        <idActivity>33</idActivity>
+        <idActivity>147</idActivity>
         <name>Hiking</name>
         <place>Trento</place>
-        <startdate>2017-11-22T19:47:00.511Z</startdate>
+        <startdate>2017-11-23T20:29:43.493Z</startdate>
         <type>SPORT</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.511Z</birthdate>
+    <birthdate>2017-11-23T20:29:43.493Z</birthdate>
     <firstName>Mate</firstName>
-    <idPerson>31</idPerson>
+    <idPerson>145</idPerson>
     <lastname>Mirko</lastname>
   </person>
 </people>
@@ -137,9 +137,9 @@ Body:
 
 **********3.1**********
 ****APPLICATION/XML****
-The number of people in the database is: 10
+The number of people in the database is: 45
 The id of the first person: 1
-The id of the last person: 31
+The id of the last person: 145
 
 Request #1:
 Header: 
@@ -152,31 +152,39 @@ Body:
   <person>
     <preferences>
       <activitypreference>
-        <description>Running on the track</description>
-        <idActivity>2</idActivity>
-        <name>Running</name>
-        <place>Trento</place>
-        <startdate>2017-11-15T21:15:25.483Z</startdate>
-        <type>SPORT</type>
-      </activitypreference>
-      <activitypreference>
         <description>Japanese cooking class</description>
-        <idActivity>3</idActivity>
-        <name>Cooking</name>
+        <idActivity>2</idActivity>
+        <name>Cooing</name>
         <place>Rovereto</place>
-        <startdate>2017-11-15T21:15:25.483Z</startdate>
+        <startdate>2017-11-10T23:00:00Z</startdate>
         <type>SOCIAL</type>
       </activitypreference>
       <activitypreference>
+        <description>Running on the track</description>
+        <idActivity>3</idActivity>
+        <name>Running</name>
+        <place>Trento</place>
+        <startdate>2017-11-10T23:00:00Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
         <description>Swimming in the river</description>
-        <idActivity>18</idActivity>
+        <idActivity>131</idActivity>
         <name>Swimming</name>
         <place>Adige</place>
         <startdate>2017-12-28T07:50:00Z</startdate>
         <type>SPORT</type>
       </activitypreference>
+      <activitypreference>
+        <description>Swimming in the river</description>
+        <idActivity>132</idActivity>
+        <name>Swimming</name>
+        <place>Adige river</place>
+        <startdate>2017-12-28T07:50:00Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
     </preferences>
-    <birthdate>2017-11-15T21:15:25.483Z</birthdate>
+    <birthdate>2017-11-10T23:00:00Z</birthdate>
     <firstName>Marika</firstName>
     <idPerson>1</idPerson>
     <lastname>Hermann</lastname>
@@ -188,7 +196,7 @@ Body:
         <idActivity>5</idActivity>
         <name>Museum</name>
         <place>Budpest</place>
-        <startdate>2017-11-22T19:45:53.993Z</startdate>
+        <startdate>2017-11-23T20:18:23.913Z</startdate>
         <type>CULTURE</type>
       </activitypreference>
       <activitypreference>
@@ -196,11 +204,11 @@ Body:
         <idActivity>6</idActivity>
         <name>Summer school</name>
         <place>Stockholm</place>
-        <startdate>2017-11-22T19:45:53.993Z</startdate>
+        <startdate>2017-11-23T20:18:23.913Z</startdate>
         <type>ACADEMIC</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:45:53.993Z</birthdate>
+    <birthdate>2017-11-23T20:18:23.913Z</birthdate>
     <firstName>Daniella</firstName>
     <idPerson>4</idPerson>
     <lastname>Kanyicska</lastname>
@@ -212,7 +220,7 @@ Body:
         <idActivity>8</idActivity>
         <name>Treasure Hunt</name>
         <place>Budapest</place>
-        <startdate>2017-11-22T19:45:54.002Z</startdate>
+        <startdate>2017-11-23T20:18:23.947Z</startdate>
         <type>WORK</type>
       </activitypreference>
       <activitypreference>
@@ -220,11 +228,11 @@ Body:
         <idActivity>9</idActivity>
         <name>Dog Wlaking</name>
         <place>Tata</place>
-        <startdate>2017-11-22T19:45:54.002Z</startdate>
+        <startdate>2017-11-23T20:18:23.947Z</startdate>
         <type>SOCIAL</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:45:54.002Z</birthdate>
+    <birthdate>2017-11-23T20:18:23.947Z</birthdate>
     <firstName>Zsofia</firstName>
     <idPerson>7</idPerson>
     <lastname>Lele</lastname>
@@ -236,7 +244,7 @@ Body:
         <idActivity>11</idActivity>
         <name>Shopping</name>
         <place>Vienna</place>
-        <startdate>2017-11-22T19:45:54.013Z</startdate>
+        <startdate>2017-11-23T20:18:23.976Z</startdate>
         <type>SOCIAL</type>
       </activitypreference>
       <activitypreference>
@@ -244,11 +252,11 @@ Body:
         <idActivity>12</idActivity>
         <name>Exam</name>
         <place>Budapest</place>
-        <startdate>2017-11-22T19:45:54.013Z</startdate>
+        <startdate>2017-11-23T20:18:23.976Z</startdate>
         <type>ACADEMIC</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:45:54.013Z</birthdate>
+    <birthdate>2017-11-23T20:18:23.976Z</birthdate>
     <firstName>Kata</firstName>
     <idPerson>10</idPerson>
     <lastname>Hermann</lastname>
@@ -260,7 +268,7 @@ Body:
         <idActivity>14</idActivity>
         <name>Yoga</name>
         <place>Budapest</place>
-        <startdate>2017-11-22T19:45:54.024Z</startdate>
+        <startdate>2017-11-23T20:18:24.010Z</startdate>
         <type>SPORT</type>
       </activitypreference>
       <activitypreference>
@@ -268,11 +276,11 @@ Body:
         <idActivity>15</idActivity>
         <name>Hiking</name>
         <place>Trento</place>
-        <startdate>2017-11-22T19:45:54.024Z</startdate>
+        <startdate>2017-11-23T20:18:24.010Z</startdate>
         <type>SPORT</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:45:54.024Z</birthdate>
+    <birthdate>2017-11-23T20:18:24.010Z</birthdate>
     <firstName>Mate</firstName>
     <idPerson>13</idPerson>
     <lastname>Mirko</lastname>
@@ -281,120 +289,960 @@ Body:
     <preferences>
       <activitypreference>
         <description>Running on the track</description>
-        <idActivity>20</idActivity>
+        <idActivity>17</idActivity>
         <name>Running</name>
         <place>Trento</place>
-        <startdate>2017-11-22T19:47:00.478Z</startdate>
+        <startdate>2017-11-23T20:18:27.340Z</startdate>
         <type>SPORT</type>
       </activitypreference>
       <activitypreference>
         <description>Japanese cooking class</description>
-        <idActivity>21</idActivity>
+        <idActivity>18</idActivity>
         <name>Cooking</name>
         <place>Rovereto</place>
-        <startdate>2017-11-22T19:47:00.478Z</startdate>
+        <startdate>2017-11-23T20:18:27.340Z</startdate>
         <type>SOCIAL</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.478Z</birthdate>
+    <birthdate>2017-11-23T20:18:27.340Z</birthdate>
     <firstName>Julia</firstName>
-    <idPerson>19</idPerson>
+    <idPerson>16</idPerson>
     <lastname>Hermann</lastname>
   </person>
   <person>
     <preferences>
       <activitypreference>
         <description>Attending history museum</description>
-        <idActivity>23</idActivity>
+        <idActivity>20</idActivity>
         <name>Museum</name>
         <place>Budpest</place>
-        <startdate>2017-11-22T19:47:00.485Z</startdate>
+        <startdate>2017-11-23T20:18:27.370Z</startdate>
         <type>CULTURE</type>
       </activitypreference>
       <activitypreference>
         <description>EIT Digital summer school on Big Data</description>
-        <idActivity>24</idActivity>
+        <idActivity>21</idActivity>
         <name>Summer school</name>
         <place>Stockholm</place>
-        <startdate>2017-11-22T19:47:00.485Z</startdate>
+        <startdate>2017-11-23T20:18:27.370Z</startdate>
         <type>ACADEMIC</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.485Z</birthdate>
+    <birthdate>2017-11-23T20:18:27.370Z</birthdate>
     <firstName>Daniella</firstName>
-    <idPerson>22</idPerson>
+    <idPerson>19</idPerson>
     <lastname>Kanyicska</lastname>
   </person>
   <person>
     <preferences>
       <activitypreference>
         <description>Fun outdoors pub crawl with colleauges</description>
-        <idActivity>26</idActivity>
+        <idActivity>23</idActivity>
         <name>Treasure Hunt</name>
         <place>Budapest</place>
-        <startdate>2017-11-22T19:47:00.493Z</startdate>
+        <startdate>2017-11-23T20:18:27.405Z</startdate>
         <type>WORK</type>
       </activitypreference>
       <activitypreference>
         <description>Walking with the family dog</description>
-        <idActivity>27</idActivity>
+        <idActivity>24</idActivity>
         <name>Dog Wlaking</name>
         <place>Tata</place>
-        <startdate>2017-11-22T19:47:00.493Z</startdate>
+        <startdate>2017-11-23T20:18:27.405Z</startdate>
         <type>SOCIAL</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.493Z</birthdate>
+    <birthdate>2017-11-23T20:18:27.405Z</birthdate>
     <firstName>Zsofia</firstName>
-    <idPerson>25</idPerson>
+    <idPerson>22</idPerson>
     <lastname>Lele</lastname>
   </person>
   <person>
     <preferences>
       <activitypreference>
         <description>Going to shopping centre</description>
-        <idActivity>29</idActivity>
+        <idActivity>26</idActivity>
         <name>Shopping</name>
         <place>Vienna</place>
-        <startdate>2017-11-22T19:47:00.502Z</startdate>
+        <startdate>2017-11-23T20:18:27.441Z</startdate>
         <type>SOCIAL</type>
       </activitypreference>
       <activitypreference>
         <description>Proving results of studying in a semester</description>
-        <idActivity>30</idActivity>
+        <idActivity>27</idActivity>
         <name>Exam</name>
         <place>Budapest</place>
-        <startdate>2017-11-22T19:47:00.502Z</startdate>
+        <startdate>2017-11-23T20:18:27.441Z</startdate>
         <type>ACADEMIC</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.502Z</birthdate>
+    <birthdate>2017-11-23T20:18:27.441Z</birthdate>
     <firstName>Kata</firstName>
-    <idPerson>28</idPerson>
+    <idPerson>25</idPerson>
     <lastname>Hermann</lastname>
   </person>
   <person>
     <preferences>
       <activitypreference>
         <description>Relaxing and streching</description>
-        <idActivity>32</idActivity>
+        <idActivity>29</idActivity>
         <name>Yoga</name>
         <place>Budapest</place>
-        <startdate>2017-11-22T19:47:00.511Z</startdate>
+        <startdate>2017-11-23T20:18:27.475Z</startdate>
         <type>SPORT</type>
       </activitypreference>
       <activitypreference>
         <description>Going up to mountain peaks</description>
-        <idActivity>33</idActivity>
+        <idActivity>30</idActivity>
         <name>Hiking</name>
         <place>Trento</place>
-        <startdate>2017-11-22T19:47:00.511Z</startdate>
+        <startdate>2017-11-23T20:18:27.475Z</startdate>
         <type>SPORT</type>
       </activitypreference>
     </preferences>
-    <birthdate>2017-11-22T19:47:00.511Z</birthdate>
+    <birthdate>2017-11-23T20:18:27.475Z</birthdate>
     <firstName>Mate</firstName>
-    <idPerson>31</idPerson>
+    <idPerson>28</idPerson>
+    <lastname>Mirko</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Running on the track</description>
+        <idActivity>35</idActivity>
+        <name>Running</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:19:21.176Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Japanese cooking class</description>
+        <idActivity>36</idActivity>
+        <name>Cooking</name>
+        <place>Rovereto</place>
+        <startdate>2017-11-23T20:19:21.177Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:19:21.177Z</birthdate>
+    <firstName>Julia</firstName>
+    <idPerson>34</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Attending history museum</description>
+        <idActivity>38</idActivity>
+        <name>Museum</name>
+        <place>Budpest</place>
+        <startdate>2017-11-23T20:19:21.215Z</startdate>
+        <type>CULTURE</type>
+      </activitypreference>
+      <activitypreference>
+        <description>EIT Digital summer school on Big Data</description>
+        <idActivity>39</idActivity>
+        <name>Summer school</name>
+        <place>Stockholm</place>
+        <startdate>2017-11-23T20:19:21.215Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:19:21.215Z</birthdate>
+    <firstName>Daniella</firstName>
+    <idPerson>37</idPerson>
+    <lastname>Kanyicska</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Fun outdoors pub crawl with colleauges</description>
+        <idActivity>41</idActivity>
+        <name>Treasure Hunt</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:19:21.244Z</startdate>
+        <type>WORK</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Walking with the family dog</description>
+        <idActivity>42</idActivity>
+        <name>Dog Wlaking</name>
+        <place>Tata</place>
+        <startdate>2017-11-23T20:19:21.244Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:19:21.244Z</birthdate>
+    <firstName>Zsofia</firstName>
+    <idPerson>40</idPerson>
+    <lastname>Lele</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Going to shopping centre</description>
+        <idActivity>44</idActivity>
+        <name>Shopping</name>
+        <place>Vienna</place>
+        <startdate>2017-11-23T20:19:21.267Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Proving results of studying in a semester</description>
+        <idActivity>45</idActivity>
+        <name>Exam</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:19:21.267Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:19:21.267Z</birthdate>
+    <firstName>Kata</firstName>
+    <idPerson>43</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Relaxing and streching</description>
+        <idActivity>47</idActivity>
+        <name>Yoga</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:19:21.284Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Going up to mountain peaks</description>
+        <idActivity>48</idActivity>
+        <name>Hiking</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:19:21.284Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:19:21.284Z</birthdate>
+    <firstName>Mate</firstName>
+    <idPerson>46</idPerson>
+    <lastname>Mirko</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Running on the track</description>
+        <idActivity>50</idActivity>
+        <name>Running</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:20:21.881Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Japanese cooking class</description>
+        <idActivity>51</idActivity>
+        <name>Cooking</name>
+        <place>Rovereto</place>
+        <startdate>2017-11-23T20:20:21.881Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:20:21.881Z</birthdate>
+    <firstName>Julia</firstName>
+    <idPerson>49</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Attending history museum</description>
+        <idActivity>53</idActivity>
+        <name>Museum</name>
+        <place>Budpest</place>
+        <startdate>2017-11-23T20:20:21.946Z</startdate>
+        <type>CULTURE</type>
+      </activitypreference>
+      <activitypreference>
+        <description>EIT Digital summer school on Big Data</description>
+        <idActivity>54</idActivity>
+        <name>Summer school</name>
+        <place>Stockholm</place>
+        <startdate>2017-11-23T20:20:21.946Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:20:21.946Z</birthdate>
+    <firstName>Daniella</firstName>
+    <idPerson>52</idPerson>
+    <lastname>Kanyicska</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Fun outdoors pub crawl with colleauges</description>
+        <idActivity>56</idActivity>
+        <name>Treasure Hunt</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:20:21.980Z</startdate>
+        <type>WORK</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Walking with the family dog</description>
+        <idActivity>57</idActivity>
+        <name>Dog Wlaking</name>
+        <place>Tata</place>
+        <startdate>2017-11-23T20:20:21.980Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:20:21.980Z</birthdate>
+    <firstName>Zsofia</firstName>
+    <idPerson>55</idPerson>
+    <lastname>Lele</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Going to shopping centre</description>
+        <idActivity>59</idActivity>
+        <name>Shopping</name>
+        <place>Vienna</place>
+        <startdate>2017-11-23T20:20:22.018Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Proving results of studying in a semester</description>
+        <idActivity>60</idActivity>
+        <name>Exam</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:20:22.018Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:20:22.018Z</birthdate>
+    <firstName>Kata</firstName>
+    <idPerson>58</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Relaxing and streching</description>
+        <idActivity>62</idActivity>
+        <name>Yoga</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:20:22.045Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Going up to mountain peaks</description>
+        <idActivity>63</idActivity>
+        <name>Hiking</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:20:22.045Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:20:22.045Z</birthdate>
+    <firstName>Mate</firstName>
+    <idPerson>61</idPerson>
+    <lastname>Mirko</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Running on the track</description>
+        <idActivity>65</idActivity>
+        <name>Running</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:21:03.124Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Japanese cooking class</description>
+        <idActivity>66</idActivity>
+        <name>Cooking</name>
+        <place>Rovereto</place>
+        <startdate>2017-11-23T20:21:03.124Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:21:03.124Z</birthdate>
+    <firstName>Julia</firstName>
+    <idPerson>64</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Attending history museum</description>
+        <idActivity>68</idActivity>
+        <name>Museum</name>
+        <place>Budpest</place>
+        <startdate>2017-11-23T20:21:03.136Z</startdate>
+        <type>CULTURE</type>
+      </activitypreference>
+      <activitypreference>
+        <description>EIT Digital summer school on Big Data</description>
+        <idActivity>69</idActivity>
+        <name>Summer school</name>
+        <place>Stockholm</place>
+        <startdate>2017-11-23T20:21:03.136Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:21:03.136Z</birthdate>
+    <firstName>Daniella</firstName>
+    <idPerson>67</idPerson>
+    <lastname>Kanyicska</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Fun outdoors pub crawl with colleauges</description>
+        <idActivity>71</idActivity>
+        <name>Treasure Hunt</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:21:03.145Z</startdate>
+        <type>WORK</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Walking with the family dog</description>
+        <idActivity>72</idActivity>
+        <name>Dog Wlaking</name>
+        <place>Tata</place>
+        <startdate>2017-11-23T20:21:03.145Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:21:03.145Z</birthdate>
+    <firstName>Zsofia</firstName>
+    <idPerson>70</idPerson>
+    <lastname>Lele</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Going to shopping centre</description>
+        <idActivity>74</idActivity>
+        <name>Shopping</name>
+        <place>Vienna</place>
+        <startdate>2017-11-23T20:21:03.161Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Proving results of studying in a semester</description>
+        <idActivity>75</idActivity>
+        <name>Exam</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:21:03.161Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:21:03.161Z</birthdate>
+    <firstName>Kata</firstName>
+    <idPerson>73</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Relaxing and streching</description>
+        <idActivity>77</idActivity>
+        <name>Yoga</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:21:03.171Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Going up to mountain peaks</description>
+        <idActivity>78</idActivity>
+        <name>Hiking</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:21:03.171Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:21:03.171Z</birthdate>
+    <firstName>Mate</firstName>
+    <idPerson>76</idPerson>
+    <lastname>Mirko</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Running on the track</description>
+        <idActivity>80</idActivity>
+        <name>Running</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:24:34.482Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Japanese cooking class</description>
+        <idActivity>81</idActivity>
+        <name>Cooking</name>
+        <place>Rovereto</place>
+        <startdate>2017-11-23T20:24:34.482Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:24:34.482Z</birthdate>
+    <firstName>Julia</firstName>
+    <idPerson>79</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Attending history museum</description>
+        <idActivity>83</idActivity>
+        <name>Museum</name>
+        <place>Budpest</place>
+        <startdate>2017-11-23T20:24:34.513Z</startdate>
+        <type>CULTURE</type>
+      </activitypreference>
+      <activitypreference>
+        <description>EIT Digital summer school on Big Data</description>
+        <idActivity>84</idActivity>
+        <name>Summer school</name>
+        <place>Stockholm</place>
+        <startdate>2017-11-23T20:24:34.513Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:24:34.513Z</birthdate>
+    <firstName>Daniella</firstName>
+    <idPerson>82</idPerson>
+    <lastname>Kanyicska</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Fun outdoors pub crawl with colleauges</description>
+        <idActivity>86</idActivity>
+        <name>Treasure Hunt</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:24:34.568Z</startdate>
+        <type>WORK</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Walking with the family dog</description>
+        <idActivity>87</idActivity>
+        <name>Dog Wlaking</name>
+        <place>Tata</place>
+        <startdate>2017-11-23T20:24:34.568Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:24:34.568Z</birthdate>
+    <firstName>Zsofia</firstName>
+    <idPerson>85</idPerson>
+    <lastname>Lele</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Going to shopping centre</description>
+        <idActivity>89</idActivity>
+        <name>Shopping</name>
+        <place>Vienna</place>
+        <startdate>2017-11-23T20:24:34.594Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Proving results of studying in a semester</description>
+        <idActivity>90</idActivity>
+        <name>Exam</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:24:34.594Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:24:34.594Z</birthdate>
+    <firstName>Kata</firstName>
+    <idPerson>88</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Relaxing and streching</description>
+        <idActivity>92</idActivity>
+        <name>Yoga</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:24:34.642Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Going up to mountain peaks</description>
+        <idActivity>93</idActivity>
+        <name>Hiking</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:24:34.642Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:24:34.642Z</birthdate>
+    <firstName>Mate</firstName>
+    <idPerson>91</idPerson>
+    <lastname>Mirko</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Running on the track</description>
+        <idActivity>98</idActivity>
+        <name>Running</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:27:04.083Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Japanese cooking class</description>
+        <idActivity>99</idActivity>
+        <name>Cooking</name>
+        <place>Rovereto</place>
+        <startdate>2017-11-23T20:27:04.083Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.083Z</birthdate>
+    <firstName>Julia</firstName>
+    <idPerson>97</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Attending history museum</description>
+        <idActivity>101</idActivity>
+        <name>Museum</name>
+        <place>Budpest</place>
+        <startdate>2017-11-23T20:27:04.111Z</startdate>
+        <type>CULTURE</type>
+      </activitypreference>
+      <activitypreference>
+        <description>EIT Digital summer school on Big Data</description>
+        <idActivity>102</idActivity>
+        <name>Summer school</name>
+        <place>Stockholm</place>
+        <startdate>2017-11-23T20:27:04.111Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.111Z</birthdate>
+    <firstName>Daniella</firstName>
+    <idPerson>100</idPerson>
+    <lastname>Kanyicska</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Fun outdoors pub crawl with colleauges</description>
+        <idActivity>104</idActivity>
+        <name>Treasure Hunt</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:27:04.165Z</startdate>
+        <type>WORK</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Walking with the family dog</description>
+        <idActivity>105</idActivity>
+        <name>Dog Wlaking</name>
+        <place>Tata</place>
+        <startdate>2017-11-23T20:27:04.165Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.165Z</birthdate>
+    <firstName>Zsofia</firstName>
+    <idPerson>103</idPerson>
+    <lastname>Lele</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Going to shopping centre</description>
+        <idActivity>107</idActivity>
+        <name>Shopping</name>
+        <place>Vienna</place>
+        <startdate>2017-11-23T20:27:04.191Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Proving results of studying in a semester</description>
+        <idActivity>108</idActivity>
+        <name>Exam</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:27:04.191Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.191Z</birthdate>
+    <firstName>Kata</firstName>
+    <idPerson>106</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Relaxing and streching</description>
+        <idActivity>110</idActivity>
+        <name>Yoga</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:27:04.214Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Going up to mountain peaks</description>
+        <idActivity>111</idActivity>
+        <name>Hiking</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:27:04.214Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.214Z</birthdate>
+    <firstName>Mate</firstName>
+    <idPerson>109</idPerson>
+    <lastname>Mirko</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Running on the track</description>
+        <idActivity>113</idActivity>
+        <name>Running</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:27:04.335Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Japanese cooking class</description>
+        <idActivity>114</idActivity>
+        <name>Cooking</name>
+        <place>Rovereto</place>
+        <startdate>2017-11-23T20:27:04.335Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.335Z</birthdate>
+    <firstName>Julia</firstName>
+    <idPerson>112</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Attending history museum</description>
+        <idActivity>116</idActivity>
+        <name>Museum</name>
+        <place>Budpest</place>
+        <startdate>2017-11-23T20:27:04.361Z</startdate>
+        <type>CULTURE</type>
+      </activitypreference>
+      <activitypreference>
+        <description>EIT Digital summer school on Big Data</description>
+        <idActivity>117</idActivity>
+        <name>Summer school</name>
+        <place>Stockholm</place>
+        <startdate>2017-11-23T20:27:04.361Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.361Z</birthdate>
+    <firstName>Daniella</firstName>
+    <idPerson>115</idPerson>
+    <lastname>Kanyicska</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Fun outdoors pub crawl with colleauges</description>
+        <idActivity>119</idActivity>
+        <name>Treasure Hunt</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:27:04.395Z</startdate>
+        <type>WORK</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Walking with the family dog</description>
+        <idActivity>120</idActivity>
+        <name>Dog Wlaking</name>
+        <place>Tata</place>
+        <startdate>2017-11-23T20:27:04.395Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.395Z</birthdate>
+    <firstName>Zsofia</firstName>
+    <idPerson>118</idPerson>
+    <lastname>Lele</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Going to shopping centre</description>
+        <idActivity>122</idActivity>
+        <name>Shopping</name>
+        <place>Vienna</place>
+        <startdate>2017-11-23T20:27:04.423Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Proving results of studying in a semester</description>
+        <idActivity>123</idActivity>
+        <name>Exam</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:27:04.423Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.423Z</birthdate>
+    <firstName>Kata</firstName>
+    <idPerson>121</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Relaxing and streching</description>
+        <idActivity>125</idActivity>
+        <name>Yoga</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:27:04.455Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Going up to mountain peaks</description>
+        <idActivity>126</idActivity>
+        <name>Hiking</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:27:04.455Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:27:04.455Z</birthdate>
+    <firstName>Mate</firstName>
+    <idPerson>124</idPerson>
+    <lastname>Mirko</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Running on the track</description>
+        <idActivity>134</idActivity>
+        <name>Running</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:29:43.406Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Japanese cooking class</description>
+        <idActivity>135</idActivity>
+        <name>Cooking</name>
+        <place>Rovereto</place>
+        <startdate>2017-11-23T20:29:43.407Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:29:43.407Z</birthdate>
+    <firstName>Julia</firstName>
+    <idPerson>133</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Attending history museum</description>
+        <idActivity>137</idActivity>
+        <name>Museum</name>
+        <place>Budpest</place>
+        <startdate>2017-11-23T20:29:43.425Z</startdate>
+        <type>CULTURE</type>
+      </activitypreference>
+      <activitypreference>
+        <description>EIT Digital summer school on Big Data</description>
+        <idActivity>138</idActivity>
+        <name>Summer school</name>
+        <place>Stockholm</place>
+        <startdate>2017-11-23T20:29:43.425Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:29:43.425Z</birthdate>
+    <firstName>Daniella</firstName>
+    <idPerson>136</idPerson>
+    <lastname>Kanyicska</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Fun outdoors pub crawl with colleauges</description>
+        <idActivity>140</idActivity>
+        <name>Treasure Hunt</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:29:43.460Z</startdate>
+        <type>WORK</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Walking with the family dog</description>
+        <idActivity>141</idActivity>
+        <name>Dog Wlaking</name>
+        <place>Tata</place>
+        <startdate>2017-11-23T20:29:43.460Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:29:43.460Z</birthdate>
+    <firstName>Zsofia</firstName>
+    <idPerson>139</idPerson>
+    <lastname>Lele</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Going to shopping centre</description>
+        <idActivity>143</idActivity>
+        <name>Shopping</name>
+        <place>Vienna</place>
+        <startdate>2017-11-23T20:29:43.482Z</startdate>
+        <type>SOCIAL</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Proving results of studying in a semester</description>
+        <idActivity>144</idActivity>
+        <name>Exam</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:29:43.482Z</startdate>
+        <type>ACADEMIC</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:29:43.482Z</birthdate>
+    <firstName>Kata</firstName>
+    <idPerson>142</idPerson>
+    <lastname>Hermann</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activitypreference>
+        <description>Relaxing and streching</description>
+        <idActivity>146</idActivity>
+        <name>Yoga</name>
+        <place>Budapest</place>
+        <startdate>2017-11-23T20:29:43.493Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+      <activitypreference>
+        <description>Going up to mountain peaks</description>
+        <idActivity>147</idActivity>
+        <name>Hiking</name>
+        <place>Trento</place>
+        <startdate>2017-11-23T20:29:43.493Z</startdate>
+        <type>SPORT</type>
+      </activitypreference>
+    </preferences>
+    <birthdate>2017-11-23T20:29:43.493Z</birthdate>
+    <firstName>Mate</firstName>
+    <idPerson>145</idPerson>
     <lastname>Mirko</lastname>
   </person>
 </people>
@@ -403,37 +1251,385 @@ Body:
 
 **********3.2**********
 ****APPLICATION/XML****
-java.lang.NumberFormatException: For input string: "Running on the track2RunningTrento2017-11-15T21:15:25.483ZSPORT"
-	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:198)
-	at org.apache.tools.ant.taskdefs.Java.run(Java.java:834)
-	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:228)
-	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:137)
-	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:110)
-	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
-	at org.apache.tools.ant.Task.perform(Task.java:348)
-	at org.apache.tools.ant.Target.execute(Target.java:435)
-	at org.apache.tools.ant.Target.performTasks(Target.java:456)
-	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)
-	at org.apache.tools.ant.Project.executeTarget(Project.java:1376)
-	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
-	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
-	at org.apache.tools.ant.Project.executeTargets(Project.java:1260)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:460)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:142)
-Caused by: java.lang.NumberFormatException: For input string: "Running on the track2RunningTrento2017-11-15T21:15:25.483ZSPORT"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at ClientImplementationXML.main(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:221)
-	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:154)
-	... 19 more
-Java Result: -1
+
+Request #2:
+Header: 
+GET /person/1 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <preferences>
+    <activitypreference>
+      <description>Japanese cooking class</description>
+      <idActivity>2</idActivity>
+      <name>Cooing</name>
+      <place>Rovereto</place>
+      <startdate>2017-11-10T23:00:00Z</startdate>
+      <type>SOCIAL</type>
+    </activitypreference>
+    <activitypreference>
+      <description>Running on the track</description>
+      <idActivity>3</idActivity>
+      <name>Running</name>
+      <place>Trento</place>
+      <startdate>2017-11-10T23:00:00Z</startdate>
+      <type>SPORT</type>
+    </activitypreference>
+    <activitypreference>
+      <description>Swimming in the river</description>
+      <idActivity>131</idActivity>
+      <name>Swimming</name>
+      <place>Adige</place>
+      <startdate>2017-12-28T07:50:00Z</startdate>
+      <type>SPORT</type>
+    </activitypreference>
+    <activitypreference>
+      <description>Swimming in the river</description>
+      <idActivity>132</idActivity>
+      <name>Swimming</name>
+      <place>Adige river</place>
+      <startdate>2017-12-28T07:50:00Z</startdate>
+      <type>SPORT</type>
+    </activitypreference>
+  </preferences>
+  <birthdate>2017-11-10T23:00:00Z</birthdate>
+  <firstName>Marika</firstName>
+  <idPerson>1</idPerson>
+  <lastname>Hermann</lastname>
+</person>
+
+
+
+**********3.3**********
+****APPLICATION/XML****
+
+Request #3:
+Header: 
+PUT /person/1 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: ERROR
+=> HTTP Status: 201 Created
+Updated person: <?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <preferences>
+    <activitypreference>
+      <description>Japanese cooking class</description>
+      <idActivity>2</idActivity>
+      <name>Cooing</name>
+      <place>Rovereto</place>
+      <startdate>2017-11-10T23:00:00Z</startdate>
+      <type>SOCIAL</type>
+    </activitypreference>
+    <activitypreference>
+      <description>Running on the track</description>
+      <idActivity>3</idActivity>
+      <name>Running</name>
+      <place>Trento</place>
+      <startdate>2017-11-10T23:00:00Z</startdate>
+      <type>SPORT</type>
+    </activitypreference>
+  </preferences>
+  <birthdate>2017-11-10T23:00:00Z</birthdate>
+  <firstName>Marika</firstName>
+  <idPerson>1</idPerson>
+  <lastname>Hermann</lastname>
+</person>
+
+
+**********3.4**********
+****APPLICATION/XML****
+
+Request #4:
+Header: 
+POST /person/ Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <preferences>
+    <activitypreference>
+      <description>Going to a restaurant or a bar with friends.</description>
+      <idActivity>149</idActivity>
+      <name>Going out</name>
+      <place>London</place>
+      <startdate>2017-11-10T23:00:00Z</startdate>
+      <type>SOCIAL</type>
+    </activitypreference>
+  </preferences>
+  <birthdate>2017-11-10T23:00:00Z</birthdate>
+  <firstName>Sherlock</firstName>
+  <idPerson>148</idPerson>
+  <lastname>Holmes</lastname>
+</person>
+
+The id of the newly created person: 148
+
+**********3.5**********
+****APPLICATION/XML****
+
+Request #5:
+Header: 
+DELETE /person/148 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 204 No Content
+
+**********3.6**********
+****APPLICATION/XML****
+
+Request #6:
+Header: 
+GET /activity_type/ Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activityTypes>
+  <activity_type>SPORT</activity_type>
+  <activity_type>SOCIAL</activity_type>
+  <activity_type>ACADEMIC</activity_type>
+  <activity_type>WORK</activity_type>
+  <activity_type>CULTURE</activity_type>
+</activityTypes>
+
+
+List of activity types in the system:[SPORT, SOCIAL, ACADEMIC, WORK, CULTURE]
+
+**********3.7**********
+****APPLICATION/XML****
+
+Request #7:
+Header: 
+GET /person/1/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Running on the track</description>
+    <idActivity>3</idActivity>
+    <name>Running</name>
+    <place>Trento</place>
+    <startdate>2017-11-10T23:00:00Z</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7:
+Header: 
+GET /person/1/SOCIAL Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Japanese cooking class</description>
+    <idActivity>2</idActivity>
+    <name>Cooing</name>
+    <place>Rovereto</place>
+    <startdate>2017-11-10T23:00:00Z</startdate>
+    <type>SOCIAL</type>
+  </activity>
+</activities>
+
+
+
+Request #7:
+Header: 
+GET /person/1/ACADEMIC Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: ERROR
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities/>
+
+
+
+Request #7:
+Header: 
+GET /person/1/WORK Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: ERROR
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities/>
+
+
+
+Request #7:
+Header: 
+GET /person/1/CULTURE Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: ERROR
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities/>
+
+
+
+Request #7b:
+Header: 
+GET /person/145/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Relaxing and streching</description>
+    <idActivity>146</idActivity>
+    <name>Yoga</name>
+    <place>Budapest</place>
+    <startdate>2017-11-23T20:29:43.493Z</startdate>
+    <type>SPORT</type>
+  </activity>
+  <activity>
+    <description>Going up to mountain peaks</description>
+    <idActivity>147</idActivity>
+    <name>Hiking</name>
+    <place>Trento</place>
+    <startdate>2017-11-23T20:29:43.493Z</startdate>
+    <type>SPORT</type>
+  </activity>
+</activities>
+
+
+
+Request #7b:
+Header: 
+GET /person/145/SOCIAL Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: ERROR
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities/>
+
+
+
+Request #7b:
+Header: 
+GET /person/145/ACADEMIC Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: ERROR
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities/>
+
+
+
+Request #7b:
+Header: 
+GET /person/145/WORK Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: ERROR
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities/>
+
+
+
+Request #7b:
+Header: 
+GET /person/145/CULTURE Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: ERROR
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities/>
+
+
+Request#7 result is OK
+Saved activity id: 2
+Saved type: SOCIAL
+
+**********3.8**********
+****APPLICATION/XML****
+
+Request #8:
+Header: 
+GET /person/1/SOCIAL/2 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Japanese cooking class</description>
+    <idActivity>2</idActivity>
+    <name>Cooing</name>
+    <place>Rovereto</place>
+    <startdate>2017-11-10T23:00:00Z</startdate>
+    <type>SOCIAL</type>
+  </activity>
+</activities>
+
+
+
+**********3.9**********
+****APPLICATION/XML****
+new activity id 150
+
+Request #9:
+Header: 
+POST /person/1/SPORT Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activity>
+  <description>Swimming in the river</description>
+  <idActivity>150</idActivity>
+  <name>Swimming</name>
+  <place>Adige river</place>
+  <startdate>2017-12-28T07:50:00Z</startdate>
+  <type>SPORT</type>
+</activity>
+
+
+**********3.10**********
+****APPLICATION/XML****
+changedPlace: Adige
+origPlace: Adige river
+
+Request #10:
+Header: 
+PUT /person/1/SPORT/150 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activity>
+  <description>Swimming in the river</description>
+  <idActivity>150</idActivity>
+  <name>Swimming</name>
+  <place>Adige</place>
+  <startdate>2017-12-28T07:50:00Z</startdate>
+  <type>SPORT</type>
+</activity>
+
+
+**********3.11**********
+****APPLICATION/XML****
+
+Request #11:
+Header: 
+GET /person/1/SOCIAL?before=2018-12-28T08:50:00&after=2017-10-11T00:00:00 Accept: APPLICATION/XML Content-Type: APPLICATION/XML
+=> Result: OK
+=> HTTP Status: 200 OK
+Body: 
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+  <activity>
+    <description>Japanese cooking class</description>
+    <idActivity>2</idActivity>
+    <name>Cooing</name>
+    <place>Rovereto</place>
+    <startdate>2017-11-10T23:00:00Z</startdate>
+    <type>SOCIAL</type>
+  </activity>
+</activities>
+
+

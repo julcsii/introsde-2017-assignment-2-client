@@ -10,103 +10,103 @@ GET /database_init/ Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => HTTP Status: 200 OK
 Body: 
 [ {
-  "idPerson" : 34,
+  "idPerson" : 151,
   "lastname" : "Hermann",
-  "birthdate" : "2017-11-22T19:47:03",
+  "birthdate" : "2017-11-23T20:29:50",
   "activitypreference" : [ {
-    "idActivity" : 35,
+    "idActivity" : 152,
     "name" : "Running",
     "description" : "Running on the track",
     "place" : "Trento",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:47:03"
+    "startdate" : "2017-11-23T20:29:50"
   }, {
-    "idActivity" : 36,
+    "idActivity" : 153,
     "name" : "Cooking",
     "description" : "Japanese cooking class",
     "place" : "Rovereto",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:47:03"
+    "startdate" : "2017-11-23T20:29:50"
   } ],
   "firstName" : "Julia"
 }, {
-  "idPerson" : 37,
+  "idPerson" : 154,
   "lastname" : "Kanyicska",
-  "birthdate" : "2017-11-22T19:47:04",
+  "birthdate" : "2017-11-23T20:29:50",
   "activitypreference" : [ {
-    "idActivity" : 38,
+    "idActivity" : 155,
     "name" : "Museum",
     "description" : "Attending history museum",
     "place" : "Budpest",
     "type" : "Culture",
-    "startdate" : "2017-11-22T19:47:04"
+    "startdate" : "2017-11-23T20:29:50"
   }, {
-    "idActivity" : 39,
+    "idActivity" : 156,
     "name" : "Summer school",
     "description" : "EIT Digital summer school on Big Data",
     "place" : "Stockholm",
     "type" : "Academic",
-    "startdate" : "2017-11-22T19:47:04"
+    "startdate" : "2017-11-23T20:29:50"
   } ],
   "firstName" : "Daniella"
 }, {
-  "idPerson" : 40,
+  "idPerson" : 157,
   "lastname" : "Lele",
-  "birthdate" : "2017-11-22T19:47:05",
+  "birthdate" : "2017-11-23T20:29:50",
   "activitypreference" : [ {
-    "idActivity" : 41,
+    "idActivity" : 158,
     "name" : "Treasure Hunt",
     "description" : "Fun outdoors pub crawl with colleauges",
     "place" : "Budapest",
     "type" : "Work",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:29:50"
   }, {
-    "idActivity" : 42,
+    "idActivity" : 159,
     "name" : "Dog Wlaking",
     "description" : "Walking with the family dog",
     "place" : "Tata",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:29:50"
   } ],
   "firstName" : "Zsofia"
 }, {
-  "idPerson" : 43,
+  "idPerson" : 160,
   "lastname" : "Hermann",
-  "birthdate" : "2017-11-22T19:47:05",
+  "birthdate" : "2017-11-23T20:29:50",
   "activitypreference" : [ {
-    "idActivity" : 44,
+    "idActivity" : 161,
     "name" : "Shopping",
     "description" : "Going to shopping centre",
     "place" : "Vienna",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:29:50"
   }, {
-    "idActivity" : 45,
+    "idActivity" : 162,
     "name" : "Exam",
     "description" : "Proving results of studying in a semester",
     "place" : "Budapest",
     "type" : "Academic",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:29:50"
   } ],
   "firstName" : "Kata"
 }, {
-  "idPerson" : 46,
+  "idPerson" : 163,
   "lastname" : "Mirko",
-  "birthdate" : "2017-11-22T19:47:05",
+  "birthdate" : "2017-11-23T20:29:50",
   "activitypreference" : [ {
-    "idActivity" : 47,
+    "idActivity" : 164,
     "name" : "Yoga",
     "description" : "Relaxing and streching",
     "place" : "Budapest",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:29:50"
   }, {
-    "idActivity" : 48,
+    "idActivity" : 165,
     "name" : "Hiking",
     "description" : "Going up to mountain peaks",
     "place" : "Trento",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:29:50"
   } ],
   "firstName" : "Mate"
 } ]
@@ -114,9 +114,9 @@ Body:
 
 **********3.1**********
 ****APPLICATION/JSON****
-The number of people in the database is: 15
+The number of people in the database is: 50
 The id of the first person: 1
-The id of the last person: 46
+The id of the last person: 163
 
 Request #1:
 Header: 
@@ -127,23 +127,23 @@ Body:
 [ {
   "idPerson" : 1,
   "lastname" : "Hermann",
-  "birthdate" : "2017-11-15T21:15:25",
+  "birthdate" : "2017-11-10T23:00:00",
   "activitypreference" : [ {
     "idActivity" : 2,
+    "name" : "Cooing",
+    "description" : "Japanese cooking class",
+    "place" : "Rovereto",
+    "type" : "Social",
+    "startdate" : "2017-11-10T23:00:00"
+  }, {
+    "idActivity" : 3,
     "name" : "Running",
     "description" : "Running on the track",
     "place" : "Trento",
     "type" : "Sport",
-    "startdate" : "2017-11-15T21:15:25"
+    "startdate" : "2017-11-10T23:00:00"
   }, {
-    "idActivity" : 3,
-    "name" : "Cooking",
-    "description" : "Japanese cooking class",
-    "place" : "Rovereto",
-    "type" : "Social",
-    "startdate" : "2017-11-15T21:15:25"
-  }, {
-    "idActivity" : 18,
+    "idActivity" : 150,
     "name" : "Swimming",
     "description" : "Swimming in the river",
     "place" : "Adige",
@@ -154,281 +154,981 @@ Body:
 }, {
   "idPerson" : 4,
   "lastname" : "Kanyicska",
-  "birthdate" : "2017-11-22T19:45:53",
+  "birthdate" : "2017-11-23T20:18:23",
   "activitypreference" : [ {
     "idActivity" : 5,
     "name" : "Museum",
     "description" : "Attending history museum",
     "place" : "Budpest",
     "type" : "Culture",
-    "startdate" : "2017-11-22T19:45:53"
+    "startdate" : "2017-11-23T20:18:23"
   }, {
     "idActivity" : 6,
     "name" : "Summer school",
     "description" : "EIT Digital summer school on Big Data",
     "place" : "Stockholm",
     "type" : "Academic",
-    "startdate" : "2017-11-22T19:45:53"
+    "startdate" : "2017-11-23T20:18:23"
   } ],
   "firstName" : "Daniella"
 }, {
   "idPerson" : 7,
   "lastname" : "Lele",
-  "birthdate" : "2017-11-22T19:45:54",
+  "birthdate" : "2017-11-23T20:18:23",
   "activitypreference" : [ {
     "idActivity" : 8,
     "name" : "Treasure Hunt",
     "description" : "Fun outdoors pub crawl with colleauges",
     "place" : "Budapest",
     "type" : "Work",
-    "startdate" : "2017-11-22T19:45:54"
+    "startdate" : "2017-11-23T20:18:23"
   }, {
     "idActivity" : 9,
     "name" : "Dog Wlaking",
     "description" : "Walking with the family dog",
     "place" : "Tata",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:45:54"
+    "startdate" : "2017-11-23T20:18:23"
   } ],
   "firstName" : "Zsofia"
 }, {
   "idPerson" : 10,
   "lastname" : "Hermann",
-  "birthdate" : "2017-11-22T19:45:54",
+  "birthdate" : "2017-11-23T20:18:23",
   "activitypreference" : [ {
     "idActivity" : 11,
     "name" : "Shopping",
     "description" : "Going to shopping centre",
     "place" : "Vienna",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:45:54"
+    "startdate" : "2017-11-23T20:18:23"
   }, {
     "idActivity" : 12,
     "name" : "Exam",
     "description" : "Proving results of studying in a semester",
     "place" : "Budapest",
     "type" : "Academic",
-    "startdate" : "2017-11-22T19:45:54"
+    "startdate" : "2017-11-23T20:18:23"
   } ],
   "firstName" : "Kata"
 }, {
   "idPerson" : 13,
   "lastname" : "Mirko",
-  "birthdate" : "2017-11-22T19:45:54",
+  "birthdate" : "2017-11-23T20:18:24",
   "activitypreference" : [ {
     "idActivity" : 14,
     "name" : "Yoga",
     "description" : "Relaxing and streching",
     "place" : "Budapest",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:45:54"
+    "startdate" : "2017-11-23T20:18:24"
   }, {
     "idActivity" : 15,
     "name" : "Hiking",
     "description" : "Going up to mountain peaks",
     "place" : "Trento",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:45:54"
+    "startdate" : "2017-11-23T20:18:24"
   } ],
   "firstName" : "Mate"
 }, {
-  "idPerson" : 19,
+  "idPerson" : 16,
   "lastname" : "Hermann",
-  "birthdate" : "2017-11-22T19:47:00",
+  "birthdate" : "2017-11-23T20:18:27",
   "activitypreference" : [ {
-    "idActivity" : 20,
+    "idActivity" : 17,
     "name" : "Running",
     "description" : "Running on the track",
     "place" : "Trento",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   }, {
-    "idActivity" : 21,
+    "idActivity" : 18,
     "name" : "Cooking",
     "description" : "Japanese cooking class",
     "place" : "Rovereto",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   } ],
   "firstName" : "Julia"
 }, {
-  "idPerson" : 22,
+  "idPerson" : 19,
   "lastname" : "Kanyicska",
-  "birthdate" : "2017-11-22T19:47:00",
+  "birthdate" : "2017-11-23T20:18:27",
   "activitypreference" : [ {
-    "idActivity" : 23,
+    "idActivity" : 20,
     "name" : "Museum",
     "description" : "Attending history museum",
     "place" : "Budpest",
     "type" : "Culture",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   }, {
-    "idActivity" : 24,
+    "idActivity" : 21,
     "name" : "Summer school",
     "description" : "EIT Digital summer school on Big Data",
     "place" : "Stockholm",
     "type" : "Academic",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   } ],
   "firstName" : "Daniella"
 }, {
-  "idPerson" : 25,
+  "idPerson" : 22,
   "lastname" : "Lele",
-  "birthdate" : "2017-11-22T19:47:00",
+  "birthdate" : "2017-11-23T20:18:27",
   "activitypreference" : [ {
-    "idActivity" : 26,
+    "idActivity" : 23,
     "name" : "Treasure Hunt",
     "description" : "Fun outdoors pub crawl with colleauges",
     "place" : "Budapest",
     "type" : "Work",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   }, {
-    "idActivity" : 27,
+    "idActivity" : 24,
     "name" : "Dog Wlaking",
     "description" : "Walking with the family dog",
     "place" : "Tata",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   } ],
   "firstName" : "Zsofia"
 }, {
-  "idPerson" : 28,
+  "idPerson" : 25,
   "lastname" : "Hermann",
-  "birthdate" : "2017-11-22T19:47:00",
+  "birthdate" : "2017-11-23T20:18:27",
   "activitypreference" : [ {
-    "idActivity" : 29,
+    "idActivity" : 26,
     "name" : "Shopping",
     "description" : "Going to shopping centre",
     "place" : "Vienna",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   }, {
-    "idActivity" : 30,
+    "idActivity" : 27,
     "name" : "Exam",
     "description" : "Proving results of studying in a semester",
     "place" : "Budapest",
     "type" : "Academic",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   } ],
   "firstName" : "Kata"
 }, {
-  "idPerson" : 31,
+  "idPerson" : 28,
   "lastname" : "Mirko",
-  "birthdate" : "2017-11-22T19:47:00",
+  "birthdate" : "2017-11-23T20:18:27",
   "activitypreference" : [ {
-    "idActivity" : 32,
+    "idActivity" : 29,
     "name" : "Yoga",
     "description" : "Relaxing and streching",
     "place" : "Budapest",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   }, {
-    "idActivity" : 33,
+    "idActivity" : 30,
     "name" : "Hiking",
     "description" : "Going up to mountain peaks",
     "place" : "Trento",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:47:00"
+    "startdate" : "2017-11-23T20:18:27"
   } ],
   "firstName" : "Mate"
 }, {
   "idPerson" : 34,
   "lastname" : "Hermann",
-  "birthdate" : "2017-11-22T19:47:03",
+  "birthdate" : "2017-11-23T20:19:21",
   "activitypreference" : [ {
     "idActivity" : 35,
     "name" : "Running",
     "description" : "Running on the track",
     "place" : "Trento",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:47:03"
+    "startdate" : "2017-11-23T20:19:21"
   }, {
     "idActivity" : 36,
     "name" : "Cooking",
     "description" : "Japanese cooking class",
     "place" : "Rovereto",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:47:03"
+    "startdate" : "2017-11-23T20:19:21"
   } ],
   "firstName" : "Julia"
 }, {
   "idPerson" : 37,
   "lastname" : "Kanyicska",
-  "birthdate" : "2017-11-22T19:47:04",
+  "birthdate" : "2017-11-23T20:19:21",
   "activitypreference" : [ {
     "idActivity" : 38,
     "name" : "Museum",
     "description" : "Attending history museum",
     "place" : "Budpest",
     "type" : "Culture",
-    "startdate" : "2017-11-22T19:47:04"
+    "startdate" : "2017-11-23T20:19:21"
   }, {
     "idActivity" : 39,
     "name" : "Summer school",
     "description" : "EIT Digital summer school on Big Data",
     "place" : "Stockholm",
     "type" : "Academic",
-    "startdate" : "2017-11-22T19:47:04"
+    "startdate" : "2017-11-23T20:19:21"
   } ],
   "firstName" : "Daniella"
 }, {
   "idPerson" : 40,
   "lastname" : "Lele",
-  "birthdate" : "2017-11-22T19:47:05",
+  "birthdate" : "2017-11-23T20:19:21",
   "activitypreference" : [ {
     "idActivity" : 41,
     "name" : "Treasure Hunt",
     "description" : "Fun outdoors pub crawl with colleauges",
     "place" : "Budapest",
     "type" : "Work",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:19:21"
   }, {
     "idActivity" : 42,
     "name" : "Dog Wlaking",
     "description" : "Walking with the family dog",
     "place" : "Tata",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:19:21"
   } ],
   "firstName" : "Zsofia"
 }, {
   "idPerson" : 43,
   "lastname" : "Hermann",
-  "birthdate" : "2017-11-22T19:47:05",
+  "birthdate" : "2017-11-23T20:19:21",
   "activitypreference" : [ {
     "idActivity" : 44,
     "name" : "Shopping",
     "description" : "Going to shopping centre",
     "place" : "Vienna",
     "type" : "Social",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:19:21"
   }, {
     "idActivity" : 45,
     "name" : "Exam",
     "description" : "Proving results of studying in a semester",
     "place" : "Budapest",
     "type" : "Academic",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:19:21"
   } ],
   "firstName" : "Kata"
 }, {
   "idPerson" : 46,
   "lastname" : "Mirko",
-  "birthdate" : "2017-11-22T19:47:05",
+  "birthdate" : "2017-11-23T20:19:21",
   "activitypreference" : [ {
     "idActivity" : 47,
     "name" : "Yoga",
     "description" : "Relaxing and streching",
     "place" : "Budapest",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:19:21"
   }, {
     "idActivity" : 48,
     "name" : "Hiking",
     "description" : "Going up to mountain peaks",
     "place" : "Trento",
     "type" : "Sport",
-    "startdate" : "2017-11-22T19:47:05"
+    "startdate" : "2017-11-23T20:19:21"
+  } ],
+  "firstName" : "Mate"
+}, {
+  "idPerson" : 49,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:20:21",
+  "activitypreference" : [ {
+    "idActivity" : 50,
+    "name" : "Running",
+    "description" : "Running on the track",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:20:21"
+  }, {
+    "idActivity" : 51,
+    "name" : "Cooking",
+    "description" : "Japanese cooking class",
+    "place" : "Rovereto",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:20:21"
+  } ],
+  "firstName" : "Julia"
+}, {
+  "idPerson" : 52,
+  "lastname" : "Kanyicska",
+  "birthdate" : "2017-11-23T20:20:21",
+  "activitypreference" : [ {
+    "idActivity" : 53,
+    "name" : "Museum",
+    "description" : "Attending history museum",
+    "place" : "Budpest",
+    "type" : "Culture",
+    "startdate" : "2017-11-23T20:20:21"
+  }, {
+    "idActivity" : 54,
+    "name" : "Summer school",
+    "description" : "EIT Digital summer school on Big Data",
+    "place" : "Stockholm",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:20:21"
+  } ],
+  "firstName" : "Daniella"
+}, {
+  "idPerson" : 55,
+  "lastname" : "Lele",
+  "birthdate" : "2017-11-23T20:20:21",
+  "activitypreference" : [ {
+    "idActivity" : 56,
+    "name" : "Treasure Hunt",
+    "description" : "Fun outdoors pub crawl with colleauges",
+    "place" : "Budapest",
+    "type" : "Work",
+    "startdate" : "2017-11-23T20:20:21"
+  }, {
+    "idActivity" : 57,
+    "name" : "Dog Wlaking",
+    "description" : "Walking with the family dog",
+    "place" : "Tata",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:20:21"
+  } ],
+  "firstName" : "Zsofia"
+}, {
+  "idPerson" : 58,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:20:22",
+  "activitypreference" : [ {
+    "idActivity" : 59,
+    "name" : "Shopping",
+    "description" : "Going to shopping centre",
+    "place" : "Vienna",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:20:22"
+  }, {
+    "idActivity" : 60,
+    "name" : "Exam",
+    "description" : "Proving results of studying in a semester",
+    "place" : "Budapest",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:20:22"
+  } ],
+  "firstName" : "Kata"
+}, {
+  "idPerson" : 61,
+  "lastname" : "Mirko",
+  "birthdate" : "2017-11-23T20:20:22",
+  "activitypreference" : [ {
+    "idActivity" : 62,
+    "name" : "Yoga",
+    "description" : "Relaxing and streching",
+    "place" : "Budapest",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:20:22"
+  }, {
+    "idActivity" : 63,
+    "name" : "Hiking",
+    "description" : "Going up to mountain peaks",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:20:22"
+  } ],
+  "firstName" : "Mate"
+}, {
+  "idPerson" : 64,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:21:03",
+  "activitypreference" : [ {
+    "idActivity" : 65,
+    "name" : "Running",
+    "description" : "Running on the track",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:21:03"
+  }, {
+    "idActivity" : 66,
+    "name" : "Cooking",
+    "description" : "Japanese cooking class",
+    "place" : "Rovereto",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:21:03"
+  } ],
+  "firstName" : "Julia"
+}, {
+  "idPerson" : 67,
+  "lastname" : "Kanyicska",
+  "birthdate" : "2017-11-23T20:21:03",
+  "activitypreference" : [ {
+    "idActivity" : 68,
+    "name" : "Museum",
+    "description" : "Attending history museum",
+    "place" : "Budpest",
+    "type" : "Culture",
+    "startdate" : "2017-11-23T20:21:03"
+  }, {
+    "idActivity" : 69,
+    "name" : "Summer school",
+    "description" : "EIT Digital summer school on Big Data",
+    "place" : "Stockholm",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:21:03"
+  } ],
+  "firstName" : "Daniella"
+}, {
+  "idPerson" : 70,
+  "lastname" : "Lele",
+  "birthdate" : "2017-11-23T20:21:03",
+  "activitypreference" : [ {
+    "idActivity" : 71,
+    "name" : "Treasure Hunt",
+    "description" : "Fun outdoors pub crawl with colleauges",
+    "place" : "Budapest",
+    "type" : "Work",
+    "startdate" : "2017-11-23T20:21:03"
+  }, {
+    "idActivity" : 72,
+    "name" : "Dog Wlaking",
+    "description" : "Walking with the family dog",
+    "place" : "Tata",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:21:03"
+  } ],
+  "firstName" : "Zsofia"
+}, {
+  "idPerson" : 73,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:21:03",
+  "activitypreference" : [ {
+    "idActivity" : 74,
+    "name" : "Shopping",
+    "description" : "Going to shopping centre",
+    "place" : "Vienna",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:21:03"
+  }, {
+    "idActivity" : 75,
+    "name" : "Exam",
+    "description" : "Proving results of studying in a semester",
+    "place" : "Budapest",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:21:03"
+  } ],
+  "firstName" : "Kata"
+}, {
+  "idPerson" : 76,
+  "lastname" : "Mirko",
+  "birthdate" : "2017-11-23T20:21:03",
+  "activitypreference" : [ {
+    "idActivity" : 77,
+    "name" : "Yoga",
+    "description" : "Relaxing and streching",
+    "place" : "Budapest",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:21:03"
+  }, {
+    "idActivity" : 78,
+    "name" : "Hiking",
+    "description" : "Going up to mountain peaks",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:21:03"
+  } ],
+  "firstName" : "Mate"
+}, {
+  "idPerson" : 79,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:24:34",
+  "activitypreference" : [ {
+    "idActivity" : 80,
+    "name" : "Running",
+    "description" : "Running on the track",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:24:34"
+  }, {
+    "idActivity" : 81,
+    "name" : "Cooking",
+    "description" : "Japanese cooking class",
+    "place" : "Rovereto",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:24:34"
+  } ],
+  "firstName" : "Julia"
+}, {
+  "idPerson" : 82,
+  "lastname" : "Kanyicska",
+  "birthdate" : "2017-11-23T20:24:34",
+  "activitypreference" : [ {
+    "idActivity" : 83,
+    "name" : "Museum",
+    "description" : "Attending history museum",
+    "place" : "Budpest",
+    "type" : "Culture",
+    "startdate" : "2017-11-23T20:24:34"
+  }, {
+    "idActivity" : 84,
+    "name" : "Summer school",
+    "description" : "EIT Digital summer school on Big Data",
+    "place" : "Stockholm",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:24:34"
+  } ],
+  "firstName" : "Daniella"
+}, {
+  "idPerson" : 85,
+  "lastname" : "Lele",
+  "birthdate" : "2017-11-23T20:24:34",
+  "activitypreference" : [ {
+    "idActivity" : 86,
+    "name" : "Treasure Hunt",
+    "description" : "Fun outdoors pub crawl with colleauges",
+    "place" : "Budapest",
+    "type" : "Work",
+    "startdate" : "2017-11-23T20:24:34"
+  }, {
+    "idActivity" : 87,
+    "name" : "Dog Wlaking",
+    "description" : "Walking with the family dog",
+    "place" : "Tata",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:24:34"
+  } ],
+  "firstName" : "Zsofia"
+}, {
+  "idPerson" : 88,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:24:34",
+  "activitypreference" : [ {
+    "idActivity" : 89,
+    "name" : "Shopping",
+    "description" : "Going to shopping centre",
+    "place" : "Vienna",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:24:34"
+  }, {
+    "idActivity" : 90,
+    "name" : "Exam",
+    "description" : "Proving results of studying in a semester",
+    "place" : "Budapest",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:24:34"
+  } ],
+  "firstName" : "Kata"
+}, {
+  "idPerson" : 91,
+  "lastname" : "Mirko",
+  "birthdate" : "2017-11-23T20:24:34",
+  "activitypreference" : [ {
+    "idActivity" : 92,
+    "name" : "Yoga",
+    "description" : "Relaxing and streching",
+    "place" : "Budapest",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:24:34"
+  }, {
+    "idActivity" : 93,
+    "name" : "Hiking",
+    "description" : "Going up to mountain peaks",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:24:34"
+  } ],
+  "firstName" : "Mate"
+}, {
+  "idPerson" : 97,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 98,
+    "name" : "Running",
+    "description" : "Running on the track",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 99,
+    "name" : "Cooking",
+    "description" : "Japanese cooking class",
+    "place" : "Rovereto",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Julia"
+}, {
+  "idPerson" : 100,
+  "lastname" : "Kanyicska",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 101,
+    "name" : "Museum",
+    "description" : "Attending history museum",
+    "place" : "Budpest",
+    "type" : "Culture",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 102,
+    "name" : "Summer school",
+    "description" : "EIT Digital summer school on Big Data",
+    "place" : "Stockholm",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Daniella"
+}, {
+  "idPerson" : 103,
+  "lastname" : "Lele",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 104,
+    "name" : "Treasure Hunt",
+    "description" : "Fun outdoors pub crawl with colleauges",
+    "place" : "Budapest",
+    "type" : "Work",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 105,
+    "name" : "Dog Wlaking",
+    "description" : "Walking with the family dog",
+    "place" : "Tata",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Zsofia"
+}, {
+  "idPerson" : 106,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 107,
+    "name" : "Shopping",
+    "description" : "Going to shopping centre",
+    "place" : "Vienna",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 108,
+    "name" : "Exam",
+    "description" : "Proving results of studying in a semester",
+    "place" : "Budapest",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Kata"
+}, {
+  "idPerson" : 109,
+  "lastname" : "Mirko",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 110,
+    "name" : "Yoga",
+    "description" : "Relaxing and streching",
+    "place" : "Budapest",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 111,
+    "name" : "Hiking",
+    "description" : "Going up to mountain peaks",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Mate"
+}, {
+  "idPerson" : 112,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 113,
+    "name" : "Running",
+    "description" : "Running on the track",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 114,
+    "name" : "Cooking",
+    "description" : "Japanese cooking class",
+    "place" : "Rovereto",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Julia"
+}, {
+  "idPerson" : 115,
+  "lastname" : "Kanyicska",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 116,
+    "name" : "Museum",
+    "description" : "Attending history museum",
+    "place" : "Budpest",
+    "type" : "Culture",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 117,
+    "name" : "Summer school",
+    "description" : "EIT Digital summer school on Big Data",
+    "place" : "Stockholm",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Daniella"
+}, {
+  "idPerson" : 118,
+  "lastname" : "Lele",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 119,
+    "name" : "Treasure Hunt",
+    "description" : "Fun outdoors pub crawl with colleauges",
+    "place" : "Budapest",
+    "type" : "Work",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 120,
+    "name" : "Dog Wlaking",
+    "description" : "Walking with the family dog",
+    "place" : "Tata",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Zsofia"
+}, {
+  "idPerson" : 121,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 122,
+    "name" : "Shopping",
+    "description" : "Going to shopping centre",
+    "place" : "Vienna",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 123,
+    "name" : "Exam",
+    "description" : "Proving results of studying in a semester",
+    "place" : "Budapest",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Kata"
+}, {
+  "idPerson" : 124,
+  "lastname" : "Mirko",
+  "birthdate" : "2017-11-23T20:27:04",
+  "activitypreference" : [ {
+    "idActivity" : 125,
+    "name" : "Yoga",
+    "description" : "Relaxing and streching",
+    "place" : "Budapest",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:27:04"
+  }, {
+    "idActivity" : 126,
+    "name" : "Hiking",
+    "description" : "Going up to mountain peaks",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:27:04"
+  } ],
+  "firstName" : "Mate"
+}, {
+  "idPerson" : 133,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:29:43",
+  "activitypreference" : [ {
+    "idActivity" : 134,
+    "name" : "Running",
+    "description" : "Running on the track",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:29:43"
+  }, {
+    "idActivity" : 135,
+    "name" : "Cooking",
+    "description" : "Japanese cooking class",
+    "place" : "Rovereto",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:29:43"
+  } ],
+  "firstName" : "Julia"
+}, {
+  "idPerson" : 136,
+  "lastname" : "Kanyicska",
+  "birthdate" : "2017-11-23T20:29:43",
+  "activitypreference" : [ {
+    "idActivity" : 137,
+    "name" : "Museum",
+    "description" : "Attending history museum",
+    "place" : "Budpest",
+    "type" : "Culture",
+    "startdate" : "2017-11-23T20:29:43"
+  }, {
+    "idActivity" : 138,
+    "name" : "Summer school",
+    "description" : "EIT Digital summer school on Big Data",
+    "place" : "Stockholm",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:29:43"
+  } ],
+  "firstName" : "Daniella"
+}, {
+  "idPerson" : 139,
+  "lastname" : "Lele",
+  "birthdate" : "2017-11-23T20:29:43",
+  "activitypreference" : [ {
+    "idActivity" : 140,
+    "name" : "Treasure Hunt",
+    "description" : "Fun outdoors pub crawl with colleauges",
+    "place" : "Budapest",
+    "type" : "Work",
+    "startdate" : "2017-11-23T20:29:43"
+  }, {
+    "idActivity" : 141,
+    "name" : "Dog Wlaking",
+    "description" : "Walking with the family dog",
+    "place" : "Tata",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:29:43"
+  } ],
+  "firstName" : "Zsofia"
+}, {
+  "idPerson" : 142,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:29:43",
+  "activitypreference" : [ {
+    "idActivity" : 143,
+    "name" : "Shopping",
+    "description" : "Going to shopping centre",
+    "place" : "Vienna",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:29:43"
+  }, {
+    "idActivity" : 144,
+    "name" : "Exam",
+    "description" : "Proving results of studying in a semester",
+    "place" : "Budapest",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:29:43"
+  } ],
+  "firstName" : "Kata"
+}, {
+  "idPerson" : 145,
+  "lastname" : "Mirko",
+  "birthdate" : "2017-11-23T20:29:43",
+  "activitypreference" : [ {
+    "idActivity" : 146,
+    "name" : "Yoga",
+    "description" : "Relaxing and streching",
+    "place" : "Budapest",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:29:43"
+  }, {
+    "idActivity" : 147,
+    "name" : "Hiking",
+    "description" : "Going up to mountain peaks",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:29:43"
+  } ],
+  "firstName" : "Mate"
+}, {
+  "idPerson" : 151,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:29:50",
+  "activitypreference" : [ {
+    "idActivity" : 152,
+    "name" : "Running",
+    "description" : "Running on the track",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:29:50"
+  }, {
+    "idActivity" : 153,
+    "name" : "Cooking",
+    "description" : "Japanese cooking class",
+    "place" : "Rovereto",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:29:50"
+  } ],
+  "firstName" : "Julia"
+}, {
+  "idPerson" : 154,
+  "lastname" : "Kanyicska",
+  "birthdate" : "2017-11-23T20:29:50",
+  "activitypreference" : [ {
+    "idActivity" : 155,
+    "name" : "Museum",
+    "description" : "Attending history museum",
+    "place" : "Budpest",
+    "type" : "Culture",
+    "startdate" : "2017-11-23T20:29:50"
+  }, {
+    "idActivity" : 156,
+    "name" : "Summer school",
+    "description" : "EIT Digital summer school on Big Data",
+    "place" : "Stockholm",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:29:50"
+  } ],
+  "firstName" : "Daniella"
+}, {
+  "idPerson" : 157,
+  "lastname" : "Lele",
+  "birthdate" : "2017-11-23T20:29:50",
+  "activitypreference" : [ {
+    "idActivity" : 158,
+    "name" : "Treasure Hunt",
+    "description" : "Fun outdoors pub crawl with colleauges",
+    "place" : "Budapest",
+    "type" : "Work",
+    "startdate" : "2017-11-23T20:29:50"
+  }, {
+    "idActivity" : 159,
+    "name" : "Dog Wlaking",
+    "description" : "Walking with the family dog",
+    "place" : "Tata",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:29:50"
+  } ],
+  "firstName" : "Zsofia"
+}, {
+  "idPerson" : 160,
+  "lastname" : "Hermann",
+  "birthdate" : "2017-11-23T20:29:50",
+  "activitypreference" : [ {
+    "idActivity" : 161,
+    "name" : "Shopping",
+    "description" : "Going to shopping centre",
+    "place" : "Vienna",
+    "type" : "Social",
+    "startdate" : "2017-11-23T20:29:50"
+  }, {
+    "idActivity" : 162,
+    "name" : "Exam",
+    "description" : "Proving results of studying in a semester",
+    "place" : "Budapest",
+    "type" : "Academic",
+    "startdate" : "2017-11-23T20:29:50"
+  } ],
+  "firstName" : "Kata"
+}, {
+  "idPerson" : 163,
+  "lastname" : "Mirko",
+  "birthdate" : "2017-11-23T20:29:50",
+  "activitypreference" : [ {
+    "idActivity" : 164,
+    "name" : "Yoga",
+    "description" : "Relaxing and streching",
+    "place" : "Budapest",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:29:50"
+  }, {
+    "idActivity" : 165,
+    "name" : "Hiking",
+    "description" : "Going up to mountain peaks",
+    "place" : "Trento",
+    "type" : "Sport",
+    "startdate" : "2017-11-23T20:29:50"
   } ],
   "firstName" : "Mate"
 } ]
@@ -445,23 +1145,23 @@ GET /person/1 Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 Body: {
   "idPerson" : 1,
   "lastname" : "Hermann",
-  "birthdate" : "2017-11-15T21:15:25",
+  "birthdate" : "2017-11-10T23:00:00",
   "activitypreference" : [ {
     "idActivity" : 2,
+    "name" : "Cooing",
+    "description" : "Japanese cooking class",
+    "place" : "Rovereto",
+    "type" : "Social",
+    "startdate" : "2017-11-10T23:00:00"
+  }, {
+    "idActivity" : 3,
     "name" : "Running",
     "description" : "Running on the track",
     "place" : "Trento",
     "type" : "Sport",
-    "startdate" : "2017-11-15T21:15:25"
+    "startdate" : "2017-11-10T23:00:00"
   }, {
-    "idActivity" : 3,
-    "name" : "Cooking",
-    "description" : "Japanese cooking class",
-    "place" : "Rovereto",
-    "type" : "Social",
-    "startdate" : "2017-11-15T21:15:25"
-  }, {
-    "idActivity" : 18,
+    "idActivity" : 150,
     "name" : "Swimming",
     "description" : "Swimming in the river",
     "place" : "Adige",
@@ -511,11 +1211,11 @@ POST /person/ Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => Result: OK
 => HTTP Status: 200 OK
 Body: {
-  "idPerson" : 49,
+  "idPerson" : 166,
   "lastname" : "Holmes",
   "birthdate" : "2017-11-15T21:15:25",
   "activitypreference" : [ {
-    "idActivity" : 50,
+    "idActivity" : 167,
     "name" : "Going out",
     "description" : "Going to a restaurant or a bar with friends.",
     "place" : "London",
@@ -524,14 +1224,14 @@ Body: {
   } ],
   "firstName" : "Sherlock"
 }
-The id of the newly created person: 49
+The id of the newly created person: 166
 
 **********3.5**********
 ****APPLICATION/JSON****
 
 Request #5:
 Header: 
-DELETE /person/49 Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+DELETE /person/166 Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => Result: OK
 => HTTP Status: 204 No Content
 
@@ -612,30 +1312,30 @@ Body:
 
 Request #7b:
 Header: 
-GET /person/46/Sport Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+GET /person/163/Sport Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => Result: OK
 => HTTP Status: 200 OK
 Body: 
 [ {
-  "idActivity" : 47,
+  "idActivity" : 164,
   "name" : "Yoga",
   "description" : "Relaxing and streching",
   "place" : "Budapest",
   "type" : "Sport",
-  "startdate" : "2017-11-22T19:47:05"
+  "startdate" : "2017-11-23T20:29:50"
 }, {
-  "idActivity" : 48,
+  "idActivity" : 165,
   "name" : "Hiking",
   "description" : "Going up to mountain peaks",
   "place" : "Trento",
   "type" : "Sport",
-  "startdate" : "2017-11-22T19:47:05"
+  "startdate" : "2017-11-23T20:29:50"
 } ]
 
 
 Request #7b:
 Header: 
-GET /person/46/Social Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+GET /person/163/Social Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => Result: ERROR
 => HTTP Status: 200 OK
 Body: 
@@ -644,7 +1344,7 @@ Body:
 
 Request #7b:
 Header: 
-GET /person/46/Academic Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+GET /person/163/Academic Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => Result: ERROR
 => HTTP Status: 200 OK
 Body: 
@@ -653,7 +1353,7 @@ Body:
 
 Request #7b:
 Header: 
-GET /person/46/Work Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+GET /person/163/Work Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => Result: ERROR
 => HTTP Status: 200 OK
 Body: 
@@ -662,7 +1362,7 @@ Body:
 
 Request #7b:
 Header: 
-GET /person/46/Culture Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+GET /person/163/Culture Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => Result: ERROR
 => HTTP Status: 200 OK
 Body: 
@@ -693,7 +1393,7 @@ Body:
 
 **********3.9**********
 ****APPLICATION/JSON****
-new activity id 51
+new activity id 168
 
 Request #9:
 Header: 
@@ -702,7 +1402,7 @@ POST /person/1/SPORT Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => HTTP Status: 200 OK
 Body: 
 {
-  "idActivity" : 51,
+  "idActivity" : 168,
   "name" : "Swimming",
   "description" : "Swimming in the river",
   "place" : "Adige river",
@@ -717,12 +1417,12 @@ origPlace: Adige river
 
 Request #10:
 Header: 
-PUT /person/1/SPORT/51 Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
+PUT /person/1/SPORT/168 Accept: APPLICATION/JSON Content-Type: APPLICATION/JSON
 => Result: OK
 => HTTP Status: 200 OK
 Body: 
 {
-  "idActivity" : 51,
+  "idActivity" : 168,
   "name" : "Swimming",
   "description" : "Swimming in the river",
   "place" : "Adige",
